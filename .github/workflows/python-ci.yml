@@ -113,7 +113,7 @@ jobs:
             # - name: publish
             #   uses: pypa/gh-action-pypi-publish@release/v1
             - name: publish
-              uses: relekang/python-semantic-release@v7.34.6
+              uses: relekang/python-semantic-release@v9.14.0
               with:
                 additional_options: "--patch"
                 github_token: ${{ secrets.GITHUB_TOKEN }}
