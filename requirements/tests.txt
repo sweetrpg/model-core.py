@@ -58,7 +58,7 @@ pytest==8.3.3
     #   pytest-cov
     #   pytest-env
     #   pytest-ordering
-pytest-cov==4.1.0
+pytest-cov==6.0.0
     # via -r requirements/tests.in
 pytest-env==1.1.5
     # via -r requirements/tests.in
