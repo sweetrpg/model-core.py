@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>API &#8212; SweetRPG Model Core 0.0.153 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=4f649999" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=1fe5e9f7" />
+    <script src="_static/documentation_options.js?v=bb54a016"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="SweetRPG Model Core" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="module-sweetrpg_model_core">
+<span id="api"></span><h1>API<a class="headerlink" href="#module-sweetrpg_model_core" title="Link to this heading">¶</a></h1>
+<section id="schemas">
+<h2>Schemas<a class="headerlink" href="#schemas" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="sweetrpg_model_core.schema.base.BaseSchema">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">sweetrpg_model_core.schema.base.</span></span><span class="sig-name descname"><span class="pre">BaseSchema</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">only</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Sequence" title="(in Python v3.13)"><span class="pre">Sequence</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.AbstractSet" title="(in Python v3.13)"><span class="pre">AbstractSet</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">exclude</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Sequence" title="(in Python v3.13)"><span class="pre">Sequence</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.AbstractSet" title="(in Python v3.13)"><span class="pre">AbstractSet</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">()</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">many</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.13)"><span class="pre">bool</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.13)"><span class="pre">dict</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">load_only</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Sequence" title="(in Python v3.13)"><span class="pre">Sequence</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.AbstractSet" title="(in Python v3.13)"><span class="pre">AbstractSet</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">()</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dump_only</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Sequence" title="(in Python v3.13)"><span class="pre">Sequence</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.AbstractSet" title="(in Python v3.13)"><span class="pre">AbstractSet</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">()</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">partial</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.13)"><span class="pre">bool</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Sequence" title="(in Python v3.13)"><span class="pre">Sequence</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.AbstractSet" title="(in Python v3.13)"><span class="pre">AbstractSet</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">unknown</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/sweetrpg_model_core/schema/base.html#BaseSchema"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#sweetrpg_model_core.schema.base.BaseSchema" title="Link to this definition">¶</a></dt>
+<dd><p>Base type for schema classes.
+Inherit from this type for database schema objects to gain ID and date conversion
+pre-load functionality, and to have ID and audit fields setup automatically.</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="sweetrpg_model_core.schema.base.BaseSchema.Meta">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">Meta</span></span><a class="reference internal" href="_modules/sweetrpg_model_core/schema/base.html#BaseSchema.Meta"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#sweetrpg_model_core.schema.base.BaseSchema.Meta" title="Link to this definition">¶</a></dt>
+<dd><dl class="py attribute">
+<dt class="sig sig-object py" id="sweetrpg_model_core.schema.base.BaseSchema.Meta.unknown">
+<span class="sig-name descname"><span class="pre">unknown</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'exclude'</span></em><a class="headerlink" href="#sweetrpg_model_core.schema.base.BaseSchema.Meta.unknown" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sweetrpg_model_core.schema.base.BaseSchema._abc_impl">
+<span class="sig-name descname"><span class="pre">_abc_impl</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">&lt;_abc._abc_data</span> <span class="pre">object&gt;</span></em><a class="headerlink" href="#sweetrpg_model_core.schema.base.BaseSchema._abc_impl" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sweetrpg_model_core.schema.base.BaseSchema._declared_fields">
+<span class="sig-name descname"><span class="pre">_declared_fields</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.13)"><span class="pre">Dict</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">ma_fields.Field</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{'created_at':</span> <span class="pre">&lt;fields.DateTime(dump_default=&lt;marshmallow.missing&gt;,</span> <span class="pre">attribute=None,</span> <span class="pre">validate=None,</span> <span class="pre">required=True,</span> <span class="pre">load_only=False,</span> <span class="pre">dump_only=False,</span> <span class="pre">load_default=&lt;marshmallow.missing&gt;,</span> <span class="pre">allow_none=False,</span> <span class="pre">error_messages={'required':</span> <span class="pre">'Missing</span> <span class="pre">data</span> <span class="pre">for</span> <span class="pre">required</span> <span class="pre">field.',</span> <span class="pre">'null':</span> <span class="pre">'Field</span> <span class="pre">may</span> <span class="pre">not</span> <span class="pre">be</span> <span class="pre">null.',</span> <span class="pre">'validator_failed':</span> <span class="pre">'Invalid</span> <span class="pre">value.',</span> <span class="pre">'invalid':</span> <span class="pre">'Not</span> <span class="pre">a</span> <span class="pre">valid</span> <span class="pre">{obj_type}.',</span> <span class="pre">'invalid_awareness':</span> <span class="pre">'Not</span> <span class="pre">a</span> <span class="pre">valid</span> <span class="pre">{awareness}</span> <span class="pre">{obj_type}.',</span> <span class="pre">'format':</span> <span class="pre">'&quot;{input}&quot;</span> <span class="pre">cannot</span> <span class="pre">be</span> <span class="pre">formatted</span> <span class="pre">as</span> <span class="pre">a</span> <span class="pre">{obj_type}.'})&gt;,</span> <span class="pre">'created_by':</span> <span class="pre">&lt;fields.String(dump_default=&lt;marshmallow.missing&gt;,</span> <span class="pre">attribute=None,</span> <span class="pre">validate=None,</span> <span class="pre">required=True,</span> <span class="pre">load_only=False,</span> <span class="pre">dump_only=False,</span> <span class="pre">load_default=&lt;marshmallow.missing&gt;,</span> <span class="pre">allow_none=False,</span> <span class="pre">error_messages={'required':</span> <span class="pre">'Missing</span> <span class="pre">data</span> <span class="pre">for</span> <span class="pre">required</span> <span class="pre">field.',</span> <span class="pre">'null':</span> <span class="pre">'Field</span> <span class="pre">may</span> <span class="pre">not</span> <span class="pre">be</span> <span class="pre">null.',</span> <span class="pre">'validator_failed':</span> <span class="pre">'Invalid</span> <span class="pre">value.',</span> <span class="pre">'invalid':</span> <span class="pre">'Not</span> <span class="pre">a</span> <span class="pre">valid</span> <span class="pre">string.',</span> <span class="pre">'invalid_utf8':</span> <span class="pre">'Not</span> <span class="pre">a</span> <span class="pre">valid</span> <span class="pre">utf-8</span> <span class="pre">string.'})&gt;,</span> <span class="pre">'deleted_at':</span> <span class="pre">&lt;fields.DateTime(dump_default=&lt;marshmallow.missing&gt;,</span> <span class="pre">attribute=None,</span> <span class="pre">validate=None,</span> <span class="pre">required=False,</span> <span class="pre">load_only=False,</span> <span class="pre">dump_only=False,</span> <span class="pre">load_default=&lt;marshmallow.missing&gt;,</span> <span class="pre">allow_none=True,</span> <span class="pre">error_messages={'required':</span> <span class="pre">'Missing</span> <span class="pre">data</span> <span class="pre">for</span> <span class="pre">required</span> <span class="pre">field.',</span> <span class="pre">'null':</span> <span class="pre">'Field</span> <span class="pre">may</span> <span class="pre">not</span> <span class="pre">be</span> <span class="pre">null.',</span> <span class="pre">'validator_failed':</span> <span class="pre">'Invalid</span> <span class="pre">value.',</span> <span class="pre">'invalid':</span> <span class="pre">'Not</span> <span class="pre">a</span> <span class="pre">valid</span> <span class="pre">{obj_type}.',</span> <span class="pre">'invalid_awareness':</span> <span class="pre">'Not</span> <span class="pre">a</span> <span class="pre">valid</span> <span class="pre">{awareness}</span> <span class="pre">{obj_type}.',</span> <span class="pre">'format':</span> <span class="pre">'&quot;{input}&quot;</span> <span class="pre">cannot</span> <span class="pre">be</span> <span class="pre">formatted</span> <span class="pre">as</span> <span class="pre">a</span> <span class="pre">{obj_type}.'})&gt;,</span> <span class="pre">'deleted_by':</span> <span class="pre">&lt;fields.String(dump_default=&lt;marshmallow.missing&gt;,</span> <span class="pre">attribute=None,</span> <span class="pre">validate=None,</span> <span class="pre">required=False,</span> <span class="pre">load_only=False,</span> <span class="pre">dump_only=False,</span> <span class="pre">load_default=&lt;marshmallow.missing&gt;,</span> <span class="pre">allow_none=True,</span> <span class="pre">error_messages={'required':</span> <span class="pre">'Missing</span> <span class="pre">data</span> <span class="pre">for</span> <span class="pre">required</span> <span class="pre">field.',</span> <span class="pre">'null':</span> <span class="pre">'Field</span> <span class="pre">may</span> <span class="pre">not</span> <span class="pre">be</span> <span class="pre">null.',</span> <span class="pre">'validator_failed':</span> <span class="pre">'Invalid</span> <span class="pre">value.',</span> <span class="pre">'invalid':</span> <span class="pre">'Not</span> <span class="pre">a</span> <span class="pre">valid</span> <span class="pre">string.',</span> <span class="pre">'invalid_utf8':</span> <span class="pre">'Not</span> <span class="pre">a</span> <span class="pre">valid</span> <span class="pre">utf-8</span> <span class="pre">string.'})&gt;,</span> <span class="pre">'id':</span> <span class="pre">&lt;fields.String(dump_default=&lt;marshmallow.missing&gt;,</span> <span class="pre">attribute=None,</span> <span class="pre">validate=None,</span> <span class="pre">required=False,</span> <span class="pre">load_only=False,</span> <span class="pre">dump_only=False,</span> <span class="pre">load_default=&lt;marshmallow.missing&gt;,</span> <span class="pre">allow_none=False,</span> <span class="pre">error_messages={'required':</span> <span class="pre">'Missing</span> <span class="pre">data</span> <span class="pre">for</span> <span class="pre">required</span> <span class="pre">field.',</span> <span class="pre">'null':</span> <span class="pre">'Field</span> <span class="pre">may</span> <span class="pre">not</span> <span class="pre">be</span> <span class="pre">null.',</span> <span class="pre">'validator_failed':</span> <span class="pre">'Invalid</span> <span class="pre">value.',</span> <span class="pre">'invalid':</span> <span class="pre">'Not</span> <span class="pre">a</span> <span class="pre">valid</span> <span class="pre">string.',</span> <span class="pre">'invalid_utf8':</span> <span class="pre">'Not</span> <span class="pre">a</span> <span class="pre">valid</span> <span class="pre">utf-8</span> <span class="pre">string.'})&gt;,</span> <span class="pre">'updated_at':</span> <span class="pre">&lt;fields.DateTime(dump_default=&lt;marshmallow.missing&gt;,</span> <span class="pre">attribute=None,</span> <span class="pre">validate=None,</span> <span class="pre">required=True,</span> <span class="pre">load_only=False,</span> <span class="pre">dump_only=False,</span> <span class="pre">load_default=&lt;marshmallow.missing&gt;,</span> <span class="pre">allow_none=False,</span> <span class="pre">error_messages={'required':</span> <span class="pre">'Missing</span> <span class="pre">data</span> <span class="pre">for</span> <span class="pre">required</span> <span class="pre">field.',</span> <span class="pre">'null':</span> <span class="pre">'Field</span> <span class="pre">may</span> <span class="pre">not</span> <span class="pre">be</span> <span class="pre">null.',</span> <span class="pre">'validator_failed':</span> <span class="pre">'Invalid</span> <span class="pre">value.',</span> <span class="pre">'invalid':</span> <span class="pre">'Not</span> <span class="pre">a</span> <span class="pre">valid</span> <span class="pre">{obj_type}.',</span> <span class="pre">'invalid_awareness':</span> <span class="pre">'Not</span> <span class="pre">a</span> <span class="pre">valid</span> <span class="pre">{awareness}</span> <span class="pre">{obj_type}.',</span> <span class="pre">'format':</span> <span class="pre">'&quot;{input}&quot;</span> <span class="pre">cannot</span> <span class="pre">be</span> <span class="pre">formatted</span> <span class="pre">as</span> <span class="pre">a</span> <span class="pre">{obj_type}.'})&gt;,</span> <span class="pre">'updated_by':</span> <span class="pre">&lt;fields.String(dump_default=&lt;marshmallow.missing&gt;,</span> <span class="pre">attribute=None,</span> <span class="pre">validate=None,</span> <span class="pre">required=True,</span> <span class="pre">load_only=False,</span> <span class="pre">dump_only=False,</span> <span class="pre">load_default=&lt;marshmallow.missing&gt;,</span> <span class="pre">allow_none=False,</span> <span class="pre">error_messages={'required':</span> <span class="pre">'Missing</span> <span class="pre">data</span> <span class="pre">for</span> <span class="pre">required</span> <span class="pre">field.',</span> <span class="pre">'null':</span> <span class="pre">'Field</span> <span class="pre">may</span> <span class="pre">not</span> <span class="pre">be</span> <span class="pre">null.',</span> <span class="pre">'validator_failed':</span> <span class="pre">'Invalid</span> <span class="pre">value.',</span> <span class="pre">'invalid':</span> <span class="pre">'Not</span> <span class="pre">a</span> <span class="pre">valid</span> <span class="pre">string.',</span> <span class="pre">'invalid_utf8':</span> <span class="pre">'Not</span> <span class="pre">a</span> <span class="pre">valid</span> <span class="pre">utf-8</span> <span class="pre">string.'})&gt;}</span></em><a class="headerlink" href="#sweetrpg_model_core.schema.base.BaseSchema._declared_fields" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sweetrpg_model_core.schema.base.BaseSchema._hooks">
+<span class="sig-name descname"><span class="pre">_hooks</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.13)"><span class="pre">Dict</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.13)"><span class="pre">List</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Tuple" title="(in Python v3.13)"><span class="pre">Tuple</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.13)"><span class="pre">bool</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.13)"><span class="pre">dict</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{'post_load':</span> <span class="pre">[('make_object',</span> <span class="pre">False,</span> <span class="pre">{'pass_original':</span> <span class="pre">False})],</span> <span class="pre">'pre_load':</span> <span class="pre">[('handle_dates',</span> <span class="pre">False,</span> <span class="pre">{}),</span> <span class="pre">('handle_id',</span> <span class="pre">False,</span> <span class="pre">{})]}</span></em><a class="headerlink" href="#sweetrpg_model_core.schema.base.BaseSchema._hooks" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sweetrpg_model_core.schema.base.BaseSchema.handle_dates">
+<span class="sig-name descname"><span class="pre">handle_dates</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">in_data</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/sweetrpg_model_core/schema/base.html#BaseSchema.handle_dates"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#sweetrpg_model_core.schema.base.BaseSchema.handle_dates" title="Link to this definition">¶</a></dt>
+<dd><p>Converts date/time value to an ISO formatted string.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sweetrpg_model_core.schema.base.BaseSchema.handle_id">
+<span class="sig-name descname"><span class="pre">handle_id</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">in_data</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/sweetrpg_model_core/schema/base.html#BaseSchema.handle_id"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#sweetrpg_model_core.schema.base.BaseSchema.handle_id" title="Link to this definition">¶</a></dt>
+<dd><p>Converts _id into id</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sweetrpg_model_core.schema.base.BaseSchema.make_object">
+<span class="sig-name descname"><span class="pre">make_object</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/sweetrpg_model_core/schema/base.html#BaseSchema.make_object"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#sweetrpg_model_core.schema.base.BaseSchema.make_object" title="Link to this definition">¶</a></dt>
+<dd><p>Create a model object from the provided data.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>data</strong> – A dictionary of data to populate the model object.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>An instance of the <cite>model_class</cite>.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sweetrpg_model_core.schema.base.BaseSchema.opts">
+<span class="sig-name descname"><span class="pre">opts</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">SchemaOpts</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">&lt;marshmallow.schema.SchemaOpts</span> <span class="pre">object&gt;</span></em><a class="headerlink" href="#sweetrpg_model_core.schema.base.BaseSchema.opts" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-sweetrpg_model_core.convert">
+<span id="converters"></span><h2>Converters<a class="headerlink" href="#module-sweetrpg_model_core.convert" title="Link to this heading">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="sweetrpg_model_core.convert.date.to_datetime">
+<span class="sig-prename descclassname"><span class="pre">sweetrpg_model_core.convert.date.</span></span><span class="sig-name descname"><span class="pre">to_datetime</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tz</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">attr</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/sweetrpg_model_core/convert/date.html#to_datetime"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#sweetrpg_model_core.convert.date.to_datetime" title="Link to this definition">¶</a></dt>
+<dd><p>Deserializes a database value to a Python datetime.
+This function can be used as a callback for the Marshmallow <code class="xref py py-class docutils literal notranslate"><span class="pre">fields.Function</span></code>
+field type.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>value</strong> (<em>any</em>) – The source value to convert to a Python datetime object. This can
+be a MongoDB <code class="xref py py-class docutils literal notranslate"><span class="pre">bson.timestamp.Timestamp</span></code>, an ISO-formatted date/time
+string, or a UTC unix timestamp value.</p></li>
+<li><p><strong>attr</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><em>str</em></a>) – The name of the attribute being deserialized.</p></li>
+<li><p><strong>data</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.13)"><em>object</em></a>) – The object associated.</p></li>
+<li><p><strong>kwargs</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.13)"><em>dict</em></a>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return datetime.datetime<span class="colon">:</span></dt>
+<dd class="field-even"><p>Python datetime object</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="sweetrpg_model_core.convert.date.to_timestamp">
+<span class="sig-prename descclassname"><span class="pre">sweetrpg_model_core.convert.date.</span></span><span class="sig-name descname"><span class="pre">to_timestamp</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">attr</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">obj</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/sweetrpg_model_core/convert/date.html#to_timestamp"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#sweetrpg_model_core.convert.date.to_timestamp" title="Link to this definition">¶</a></dt>
+<dd><p>Serialize an object value to a MongoDB timestamp.
+This function can be used as a callback for the Marshmallow <code class="xref py py-class docutils literal notranslate"><span class="pre">fields.Function</span></code>
+field type.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>value</strong> (<em>any</em>) – The source value to convert to a MongoDB <code class="xref py py-class docutils literal notranslate"><span class="pre">bson.timestamp.Timestamp</span></code>. This
+can be a <cite>datetime</cite> object, or a time/increment tuple.</p></li>
+<li><p><strong>attr</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.13)"><em>str</em></a>) – The name of the attribute being serialized.</p></li>
+<li><p><strong>obj</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.13)"><em>object</em></a>) – The object associated.</p></li>
+<li><p><strong>kwargs</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.13)"><em>dict</em></a>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return bson.timestamp.Timestamp<span class="colon">:</span></dt>
+<dd class="field-even"><p>MongoDB Timestamp object</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">SweetRPG Model Core</a></h1>
+
+
+
+
+
+
+<p>
+<iframe src="https://ghbtns.com/github-btn.html?user=sweetrpg&repo=common&type=watch&count=true&size=large&v=2"
+  allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
+</p>
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#schemas">Schemas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-sweetrpg_model_core.convert">Converters</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">SweetRPG Model Core</a></li>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2021, Paul Schifferer.
+      
+    </div>
+
+    
+    <a href="https://github.com/sweetrpg/common" class="github">
+        <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"  class="github"/>
+    </a>
+    
+
+    
+  </body>
+</html>
