@@ -33,7 +33,7 @@ filelock==3.16.1
 iniconfig==2.0.0
     # via pytest
 marshmallow==3.23.1
-    # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
+    # via -r requirements/pkg.in
 packaging==24.2
     # via
     #   marshmallow
@@ -49,10 +49,10 @@ pluggy==1.5.0
     #   pytest
     #   tox
 pymongo==4.10.1
-    # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
+    # via -r requirements/pkg.in
 pyproject-api==1.8.0
     # via tox
-pytest==7.4.4
+pytest==8.3.3
     # via
     #   -r requirements/tests.in
     #   pytest-cov
@@ -67,7 +67,7 @@ pytest-ordering==0.6
 python-dotenv==1.0.1
     # via -r requirements/tests.in
 sweetrpg-common==0.0.1
-    # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
+    # via -r requirements/pkg.in
 tox==4.23.2
     # via -r requirements/tests.in
 virtualenv==20.27.1
