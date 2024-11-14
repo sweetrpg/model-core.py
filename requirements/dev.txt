@@ -4,7 +4,7 @@
 #
 #    pip-compile requirements/dev.in
 #
-alabaster==0.7.16
+alabaster==1.0.0
     # via sphinx
 annotated-types==0.7.0
     # via pydantic
@@ -140,7 +140,7 @@ shellingham==1.5.4
     # via typer
 snowballstemmer==2.2.0
     # via sphinx
-sphinx==7.4.7
+sphinx==8.1.3
     # via
     #   -r /home/runner/work/model-core.py/model-core.py/requirements/docs.in
     #   pallets-sphinx-themes
@@ -148,7 +148,7 @@ sphinx==7.4.7
     #   sphinx-notfound-page
     #   sphinx-tabs
     #   sphinxcontrib-log-cabinet
-sphinx-issues==3.0.1
+sphinx-issues==5.0.0
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/docs.in
 sphinx-notfound-page==1.0.4
     # via pallets-sphinx-themes
