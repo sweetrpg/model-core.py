@@ -23,7 +23,7 @@ on:
 
 jobs:
     tests:
-        name: ${{ matrix.name }}
+        name: Build/test on ${{ matrix.name }}
         runs-on: ${{ matrix.os }}
         concurrency: ci
         strategy:
