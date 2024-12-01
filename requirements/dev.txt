@@ -97,7 +97,7 @@ pluggy==1.5.0
     # via
     #   pytest
     #   tox
-pydantic==2.10.1
+pydantic==2.10.2
     # via rstcheck-core
 pydantic-core==2.27.1
     # via pydantic
@@ -172,7 +172,7 @@ sweetrpg-common==0.0.1
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
 tox==4.23.2
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/tests.in
-typer==0.13.1
+typer==0.14.0
     # via rstcheck
 typing-extensions==4.12.2
     # via
@@ -181,7 +181,7 @@ typing-extensions==4.12.2
     #   typer
 urllib3==2.2.3
     # via requests
-virtualenv==20.27.1
+virtualenv==20.28.0
     # via tox
 wheel==0.45.1
     # via pip-tools

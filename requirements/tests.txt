@@ -70,7 +70,7 @@ sweetrpg-common==0.0.1
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
 tox==4.23.2
     # via -r requirements/tests.in
-virtualenv==20.27.1
+virtualenv==20.28.0
     # via tox
 
 # The following packages are considered to be unsafe in a requirements file:

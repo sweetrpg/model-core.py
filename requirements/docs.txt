@@ -44,7 +44,7 @@ packaging==24.2
     #   sphinx
 pallets-sphinx-themes==2.3.0
     # via -r requirements/docs.in
-pydantic==2.10.1
+pydantic==2.10.2
     # via rstcheck-core
 pydantic-core==2.27.1
     # via pydantic
@@ -97,7 +97,7 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 sweetrpg-common==0.0.1
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
-typer==0.13.1
+typer==0.14.0
     # via rstcheck
 typing-extensions==4.12.2
     # via
