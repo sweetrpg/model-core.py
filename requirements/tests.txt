@@ -14,7 +14,7 @@ chardet==5.2.0
     # via tox
 colorama==0.4.6
     # via tox
-coverage[toml]==7.6.8
+coverage[toml]==7.6.9
     # via
     #   coverage-badge
     #   pytest-cov
@@ -52,7 +52,7 @@ pymongo==4.10.1
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
 pyproject-api==1.8.0
     # via tox
-pytest==8.3.3
+pytest==8.3.4
     # via
     #   -r requirements/tests.in
     #   pytest-cov

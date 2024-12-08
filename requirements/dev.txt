@@ -33,7 +33,7 @@ click==8.1.7
     #   typer
 colorama==0.4.6
     # via tox
-coverage[toml]==7.6.8
+coverage[toml]==7.6.9
     # via
     #   coverage-badge
     #   pytest-cov
@@ -97,7 +97,7 @@ pluggy==1.5.0
     # via
     #   pytest
     #   tox
-pydantic==2.10.2
+pydantic==2.10.3
     # via rstcheck-core
 pydantic-core==2.27.1
     # via pydantic
@@ -114,7 +114,7 @@ pyproject-hooks==1.2.0
     # via
     #   build
     #   pip-tools
-pytest==8.3.3
+pytest==8.3.4
     # via
     #   -r /home/runner/work/model-core.py/model-core.py/requirements/tests.in
     #   pytest-cov
@@ -172,7 +172,7 @@ sweetrpg-common==0.0.1
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
 tox==4.23.2
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/tests.in
-typer==0.14.0
+typer==0.15.1
     # via rstcheck
 typing-extensions==4.12.2
     # via
