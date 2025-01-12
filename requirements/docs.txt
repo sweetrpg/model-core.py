@@ -33,7 +33,7 @@ markdown-it-py==3.0.0
     # via rich
 markupsafe==3.0.2
     # via jinja2
-marshmallow==3.23.3
+marshmallow==3.25.1
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
 mdurl==0.1.2
     # via markdown-it-py
@@ -44,11 +44,11 @@ packaging==24.2
     #   sphinx
 pallets-sphinx-themes==2.3.0
     # via -r requirements/docs.in
-pydantic==2.10.4
+pydantic==2.10.5
     # via rstcheck-core
 pydantic-core==2.27.2
     # via pydantic
-pygments==2.18.0
+pygments==2.19.1
     # via
     #   rich
     #   sphinx

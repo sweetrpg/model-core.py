@@ -32,7 +32,7 @@ filelock==3.16.1
     #   virtualenv
 iniconfig==2.0.0
     # via pytest
-marshmallow==3.23.3
+marshmallow==3.25.1
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
 packaging==24.2
     # via
