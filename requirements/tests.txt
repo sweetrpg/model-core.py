@@ -8,7 +8,7 @@ asgiref==3.8.1
     # via -r requirements/tests.in
 blinker==1.9.0
     # via -r requirements/tests.in
-cachetools==5.5.0
+cachetools==5.5.1
     # via tox
 chardet==5.2.0
     # via tox
@@ -26,13 +26,13 @@ dnspython==2.7.0
     # via
     #   -r requirements/tests.in
     #   pymongo
-filelock==3.16.1
+filelock==3.17.0
     # via
     #   tox
     #   virtualenv
 iniconfig==2.0.0
     # via pytest
-marshmallow==3.25.1
+marshmallow==3.26.0
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
 packaging==24.2
     # via
@@ -50,7 +50,7 @@ pluggy==1.5.0
     #   tox
 pymongo==4.10.1
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
-pyproject-api==1.8.0
+pyproject-api==1.9.0
     # via tox
 pytest==8.3.4
     # via
@@ -68,7 +68,7 @@ python-dotenv==1.0.1
     # via -r requirements/tests.in
 sweetrpg-common==0.0.1
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
-tox==4.23.2
+tox==4.24.1
     # via -r requirements/tests.in
 virtualenv==20.29.1
     # via tox
