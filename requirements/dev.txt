@@ -174,7 +174,7 @@ sweetrpg-common==0.0.1
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
 tox==4.24.1
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/tests.in
-typer==0.15.1
+typer==0.15.2
     # via rstcheck
 typing-extensions==4.12.2
     # via
