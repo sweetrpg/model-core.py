@@ -27,7 +27,7 @@ idna==3.10
     # via requests
 imagesize==1.4.1
     # via sphinx
-jinja2==3.1.5
+jinja2==3.1.6
     # via sphinx
 markdown-it-py==3.0.0
     # via rich
@@ -53,7 +53,7 @@ pygments==2.19.1
     #   rich
     #   sphinx
     #   sphinx-tabs
-pymongo==4.11.1
+pymongo==4.11.2
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
 requests==2.32.3
     # via sphinx
@@ -69,7 +69,7 @@ shellingham==1.5.4
     # via typer
 snowballstemmer==2.2.0
     # via sphinx
-sphinx==8.2.1
+sphinx==8.2.3
     # via
     #   -r requirements/docs.in
     #   pallets-sphinx-themes

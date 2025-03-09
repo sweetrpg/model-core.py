@@ -60,7 +60,7 @@ imagesize==1.4.1
     # via sphinx
 iniconfig==2.0.0
     # via pytest
-jinja2==3.1.5
+jinja2==3.1.6
     # via sphinx
 markdown-it-py==3.0.0
     # via rich
@@ -106,7 +106,7 @@ pygments==2.19.1
     #   rich
     #   sphinx
     #   sphinx-tabs
-pymongo==4.11.1
+pymongo==4.11.2
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
 pyproject-api==1.9.0
     # via tox
@@ -114,7 +114,7 @@ pyproject-hooks==1.2.0
     # via
     #   build
     #   pip-tools
-pytest==8.3.4
+pytest==8.3.5
     # via
     #   -r /home/runner/work/model-core.py/model-core.py/requirements/tests.in
     #   pytest-cov
@@ -142,7 +142,7 @@ shellingham==1.5.4
     # via typer
 snowballstemmer==2.2.0
     # via sphinx
-sphinx==8.2.1
+sphinx==8.2.3
     # via
     #   -r /home/runner/work/model-core.py/model-core.py/requirements/docs.in
     #   pallets-sphinx-themes
@@ -172,7 +172,7 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 sweetrpg-common==0.0.1
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
-tox==4.24.1
+tox==4.24.2
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/tests.in
 typer==0.15.2
     # via rstcheck
@@ -183,7 +183,7 @@ typing-extensions==4.12.2
     #   typer
 urllib3==2.3.0
     # via requests
-virtualenv==20.29.2
+virtualenv==20.29.3
     # via tox
 wheel==0.45.1
     # via pip-tools
