@@ -26,7 +26,7 @@ dnspython==2.7.0
     # via
     #   -r requirements/tests.in
     #   pymongo
-filelock==3.17.0
+filelock==3.18.0
     # via
     #   tox
     #   virtualenv
