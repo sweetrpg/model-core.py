@@ -14,7 +14,7 @@ chardet==5.2.0
     # via tox
 colorama==0.4.6
     # via tox
-coverage[toml]==7.7.1
+coverage[toml]==7.8.0
     # via
     #   coverage-badge
     #   pytest-cov
@@ -58,7 +58,7 @@ pytest==8.3.5
     #   pytest-cov
     #   pytest-env
     #   pytest-ordering
-pytest-cov==6.0.0
+pytest-cov==6.1.1
     # via -r requirements/tests.in
 pytest-env==1.1.5
     # via -r requirements/tests.in
@@ -70,7 +70,7 @@ sweetrpg-common==0.0.1
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
 tox==4.25.0
     # via -r requirements/tests.in
-virtualenv==20.29.3
+virtualenv==20.30.0
     # via tox
 
 # The following packages are considered to be unsafe in a requirements file:
