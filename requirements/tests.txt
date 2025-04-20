@@ -34,7 +34,7 @@ iniconfig==2.1.0
     # via pytest
 marshmallow==3.26.1
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
-packaging==24.2
+packaging==25.0
     # via
     #   marshmallow
     #   pyproject-api

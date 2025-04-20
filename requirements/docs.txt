@@ -37,7 +37,7 @@ marshmallow==3.26.1
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
 mdurl==0.1.2
     # via markdown-it-py
-packaging==24.2
+packaging==25.0
     # via
     #   marshmallow
     #   pallets-sphinx-themes
