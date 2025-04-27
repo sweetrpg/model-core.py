@@ -20,7 +20,7 @@ build==1.2.2.post1
     # via pip-tools
 cachetools==5.5.2
     # via tox
-certifi==2025.1.31
+certifi==2025.4.26
     # via requests
 chardet==5.2.0
     # via tox
@@ -70,7 +70,7 @@ marshmallow==3.26.1
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
 mdurl==0.1.2
     # via markdown-it-py
-mypy-extensions==1.0.0
+mypy-extensions==1.1.0
     # via black
 packaging==25.0
     # via
