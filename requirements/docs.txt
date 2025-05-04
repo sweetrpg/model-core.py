@@ -12,7 +12,7 @@ babel==2.17.0
     # via sphinx
 certifi==2025.4.26
     # via requests
-charset-normalizer==3.4.1
+charset-normalizer==3.4.2
     # via requests
 click==8.1.8
     # via typer
@@ -44,16 +44,16 @@ packaging==25.0
     #   sphinx
 pallets-sphinx-themes==2.3.0
     # via -r requirements/docs.in
-pydantic==2.11.3
+pydantic==2.11.4
     # via rstcheck-core
-pydantic-core==2.33.1
+pydantic-core==2.33.2
     # via pydantic
 pygments==2.19.1
     # via
     #   rich
     #   sphinx
     #   sphinx-tabs
-pymongo==4.12.0
+pymongo==4.12.1
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
 requests==2.32.3
     # via sphinx
@@ -99,7 +99,7 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 sweetrpg-common==0.0.1
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
-typer==0.15.2
+typer==0.15.3
     # via rstcheck
 typing-extensions==4.13.2
     # via
