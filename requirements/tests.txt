@@ -40,7 +40,7 @@ packaging==25.0
     #   pyproject-api
     #   pytest
     #   tox
-platformdirs==4.3.7
+platformdirs==4.3.8
     # via
     #   tox
     #   virtualenv
@@ -70,7 +70,7 @@ sweetrpg-common==0.0.1
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
 tox==4.25.0
     # via -r requirements/tests.in
-virtualenv==20.30.0
+virtualenv==20.31.2
     # via tox
 
 # The following packages are considered to be unsafe in a requirements file:
