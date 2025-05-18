@@ -14,7 +14,7 @@ certifi==2025.4.26
     # via requests
 charset-normalizer==3.4.2
     # via requests
-click==8.2.0
+click==8.1.8
     # via typer
 dnspython==2.7.0
     # via pymongo
@@ -53,7 +53,7 @@ pygments==2.19.1
     #   rich
     #   sphinx
     #   sphinx-tabs
-pymongo==4.12.1
+pymongo==4.13.0
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
 requests==2.32.3
     # via sphinx
@@ -99,7 +99,7 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 sweetrpg-common==0.0.1
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
-typer==0.15.3
+typer==0.15.4
     # via rstcheck
 typing-extensions==4.13.2
     # via
