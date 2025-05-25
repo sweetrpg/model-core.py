@@ -18,7 +18,7 @@ blinker==1.9.0
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/tests.in
 build==1.2.2.post1
     # via pip-tools
-cachetools==5.5.2
+cachetools==6.0.0
     # via tox
 certifi==2025.4.26
     # via requests
@@ -33,7 +33,7 @@ click==8.1.8
     #   typer
 colorama==0.4.6
     # via tox
-coverage[toml]==7.8.0
+coverage[toml]==7.8.2
     # via
     #   coverage-badge
     #   pytest-cov
@@ -97,7 +97,7 @@ pluggy==1.6.0
     # via
     #   pytest
     #   tox
-pydantic==2.11.4
+pydantic==2.11.5
     # via rstcheck-core
 pydantic-core==2.33.2
     # via pydantic
@@ -182,7 +182,7 @@ typing-extensions==4.13.2
     #   pydantic-core
     #   typer
     #   typing-inspection
-typing-inspection==0.4.0
+typing-inspection==0.4.1
     # via pydantic
 urllib3==2.4.0
     # via requests
