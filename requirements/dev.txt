@@ -26,7 +26,7 @@ chardet==5.2.0
     # via tox
 charset-normalizer==3.4.2
     # via requests
-click==8.1.8
+click==8.2.1
     # via
     #   black
     #   pip-tools
@@ -174,7 +174,7 @@ sweetrpg-common==0.0.1
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
 tox==4.26.0
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/tests.in
-typer==0.15.4
+typer==0.16.0
     # via rstcheck
 typing-extensions==4.13.2
     # via
