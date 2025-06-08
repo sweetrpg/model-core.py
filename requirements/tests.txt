@@ -48,11 +48,13 @@ pluggy==1.6.0
     # via
     #   pytest
     #   tox
+pygments==2.19.1
+    # via pytest
 pymongo==4.13.0
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
 pyproject-api==1.9.1
     # via tox
-pytest==8.3.5
+pytest==8.4.0
     # via
     #   -r requirements/tests.in
     #   pytest-cov

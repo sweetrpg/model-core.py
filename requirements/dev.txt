@@ -103,6 +103,7 @@ pydantic-core==2.33.2
     # via pydantic
 pygments==2.19.1
     # via
+    #   pytest
     #   rich
     #   sphinx
     #   sphinx-tabs
@@ -114,7 +115,7 @@ pyproject-hooks==1.2.0
     # via
     #   build
     #   pip-tools
-pytest==8.3.5
+pytest==8.4.0
     # via
     #   -r /home/runner/work/model-core.py/model-core.py/requirements/tests.in
     #   pytest-cov
@@ -134,9 +135,9 @@ rich==14.0.0
     # via typer
 roman-numerals-py==3.1.0
     # via sphinx
-rstcheck==6.2.4
+rstcheck==6.2.5
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/docs.in
-rstcheck-core==1.2.1
+rstcheck-core==1.2.2
     # via rstcheck
 shellingham==1.5.4
     # via typer
@@ -176,7 +177,7 @@ tox==4.26.0
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/tests.in
 typer==0.16.0
     # via rstcheck
-typing-extensions==4.13.2
+typing-extensions==4.14.0
     # via
     #   pydantic
     #   pydantic-core
