@@ -8,7 +8,7 @@ asgiref==3.8.1
     # via -r requirements/tests.in
 blinker==1.9.0
     # via -r requirements/tests.in
-cachetools==6.0.0
+cachetools==6.1.0
     # via tox
 chardet==5.2.0
     # via tox
@@ -49,13 +49,13 @@ pluggy==1.6.0
     #   pytest
     #   pytest-cov
     #   tox
-pygments==2.19.1
+pygments==2.19.2
     # via pytest
-pymongo==4.13.1
+pymongo==4.13.2
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
 pyproject-api==1.9.1
     # via tox
-pytest==8.4.0
+pytest==8.4.1
     # via
     #   -r requirements/tests.in
     #   pytest-cov
@@ -71,7 +71,7 @@ python-dotenv==1.1.0
     # via -r requirements/tests.in
 sweetrpg-common==0.0.1
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
-tox==4.26.0
+tox==4.27.0
     # via -r requirements/tests.in
 virtualenv==20.31.2
     # via tox
