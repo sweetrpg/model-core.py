@@ -67,7 +67,7 @@ pytest-env==1.1.5
     # via -r requirements/tests.in
 pytest-ordering==0.6
     # via -r requirements/tests.in
-python-dotenv==1.1.0
+python-dotenv==1.1.1
     # via -r requirements/tests.in
 sweetrpg-common==0.0.1
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
