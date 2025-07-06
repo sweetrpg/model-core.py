@@ -101,7 +101,7 @@ sweetrpg-common==0.0.1
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
 typer==0.16.0
     # via rstcheck
-typing-extensions==4.14.0
+typing-extensions==4.14.1
     # via
     #   pydantic
     #   pydantic-core
