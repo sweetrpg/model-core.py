@@ -8,7 +8,7 @@ alabaster==1.0.0
     # via sphinx
 annotated-types==0.7.0
     # via pydantic
-asgiref==3.9.0
+asgiref==3.9.1
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/tests.in
 babel==2.17.0
     # via sphinx
@@ -20,7 +20,7 @@ build==1.2.2.post1
     # via pip-tools
 cachetools==6.1.0
     # via tox
-certifi==2025.6.15
+certifi==2025.7.9
     # via requests
 chardet==5.2.0
     # via tox
