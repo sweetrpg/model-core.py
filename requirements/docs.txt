@@ -57,7 +57,7 @@ pymongo==4.13.2
     # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
 requests==2.32.4
     # via sphinx
-rich==14.0.0
+rich==14.1.0
     # via typer
 roman-numerals-py==3.1.0
     # via sphinx
