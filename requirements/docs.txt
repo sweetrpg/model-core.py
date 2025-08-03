@@ -34,7 +34,7 @@ markdown-it-py==3.0.0
 markupsafe==3.0.2
     # via jinja2
 marshmallow==3.26.1
-    # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
+    # via -r requirements/pkg.in
 mdurl==0.1.2
     # via markdown-it-py
 packaging==25.0
@@ -54,7 +54,7 @@ pygments==2.19.2
     #   sphinx
     #   sphinx-tabs
 pymongo==4.13.2
-    # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
+    # via -r requirements/pkg.in
 requests==2.32.4
     # via sphinx
 rich==14.1.0
@@ -98,7 +98,7 @@ sphinxcontrib-qthelp==2.0.0
 sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 sweetrpg-common==0.0.1
-    # via -r /home/runner/work/model-core.py/model-core.py/requirements/pkg.in
+    # via -r requirements/pkg.in
 typer==0.16.0
     # via rstcheck
 typing-extensions==4.14.1
