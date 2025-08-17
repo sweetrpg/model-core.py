@@ -14,7 +14,7 @@ chardet==5.2.0
     # via tox
 colorama==0.4.6
     # via tox
-coverage[toml]==7.10.2
+coverage[toml]==7.10.4
     # via
     #   coverage-badge
     #   pytest-cov
@@ -26,7 +26,7 @@ dnspython==2.7.0
     # via
     #   -r requirements/tests.in
     #   pymongo
-filelock==3.18.0
+filelock==3.19.1
     # via
     #   tox
     #   virtualenv
@@ -73,7 +73,7 @@ sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
 tox==4.28.4
     # via -r requirements/tests.in
-virtualenv==20.33.1
+virtualenv==20.34.0
     # via tox
 
 # The following packages are considered to be unsafe in a requirements file:

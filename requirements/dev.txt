@@ -33,7 +33,7 @@ click==8.2.1
     #   typer
 colorama==0.4.6
     # via tox
-coverage[toml]==7.10.2
+coverage[toml]==7.10.4
     # via
     #   coverage-badge
     #   pytest-cov
@@ -50,7 +50,7 @@ docutils==0.21.2
     #   rstcheck-core
     #   sphinx
     #   sphinx-tabs
-filelock==3.18.0
+filelock==3.19.1
     # via
     #   tox
     #   virtualenv
@@ -62,7 +62,7 @@ iniconfig==2.1.0
     # via pytest
 jinja2==3.1.6
     # via sphinx
-markdown-it-py==3.0.0
+markdown-it-py==4.0.0
     # via rich
 markupsafe==3.0.2
     # via jinja2
@@ -188,7 +188,7 @@ typing-inspection==0.4.1
     # via pydantic
 urllib3==2.5.0
     # via requests
-virtualenv==20.33.1
+virtualenv==20.34.0
     # via tox
 wheel==0.45.1
     # via pip-tools

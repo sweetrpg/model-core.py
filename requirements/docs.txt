@@ -29,7 +29,7 @@ imagesize==1.4.1
     # via sphinx
 jinja2==3.1.6
     # via sphinx
-markdown-it-py==3.0.0
+markdown-it-py==4.0.0
     # via rich
 markupsafe==3.0.2
     # via jinja2
