@@ -99,7 +99,7 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
-typer==0.17.3
+typer==0.17.4
     # via rstcheck
 typing-extensions==4.15.0
     # via

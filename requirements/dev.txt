@@ -116,13 +116,13 @@ pyproject-hooks==1.2.0
     # via
     #   build
     #   pip-tools
-pytest==8.4.1
+pytest==8.4.2
     # via
     #   -r requirements/tests.in
     #   pytest-cov
     #   pytest-env
     #   pytest-ordering
-pytest-cov==6.2.1
+pytest-cov==6.3.0
     # via -r requirements/tests.in
 pytest-env==1.1.5
     # via -r requirements/tests.in
@@ -174,9 +174,9 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
-tox==4.29.0
+tox==4.30.2
     # via -r requirements/tests.in
-typer==0.17.3
+typer==0.17.4
     # via rstcheck
 typing-extensions==4.15.0
     # via
