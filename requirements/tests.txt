@@ -22,7 +22,7 @@ coverage-badge==1.1.2
     # via -r requirements/tests.in
 distlib==0.4.0
     # via virtualenv
-dnspython==2.7.0
+dnspython==2.8.0
     # via
     #   -r requirements/tests.in
     #   pymongo
@@ -51,7 +51,7 @@ pluggy==1.6.0
     #   tox
 pygments==2.19.2
     # via pytest
-pymongo==4.14.1
+pymongo==4.15.0
     # via -r requirements/pkg.in
 pyproject-api==1.9.1
     # via tox

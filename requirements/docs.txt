@@ -16,7 +16,7 @@ charset-normalizer==3.4.3
     # via requests
 click==8.2.1
     # via typer
-dnspython==2.7.0
+dnspython==2.8.0
     # via pymongo
 docutils==0.21.2
     # via
@@ -44,7 +44,7 @@ packaging==25.0
     #   sphinx
 pallets-sphinx-themes==2.3.0
     # via -r requirements/docs.in
-pydantic==2.11.7
+pydantic==2.11.9
     # via rstcheck-core
 pydantic-core==2.33.2
     # via pydantic
@@ -53,7 +53,7 @@ pygments==2.19.2
     #   rich
     #   sphinx
     #   sphinx-tabs
-pymongo==4.14.1
+pymongo==4.15.0
     # via -r requirements/pkg.in
 requests==2.32.5
     # via sphinx
