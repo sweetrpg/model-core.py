@@ -32,11 +32,10 @@ filelock==3.19.1
     #   virtualenv
 iniconfig==2.1.0
     # via pytest
-marshmallow==3.26.1
+marshmallow==4.0.1
     # via -r requirements/pkg.in
 packaging==25.0
     # via
-    #   marshmallow
     #   pyproject-api
     #   pytest
     #   tox
