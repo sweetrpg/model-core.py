@@ -17,7 +17,7 @@ jobs:
     update-reqs:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v5
             - name: Get language version
               id: get_lang_version
               run: |
