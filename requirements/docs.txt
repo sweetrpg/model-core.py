@@ -31,7 +31,7 @@ jinja2==3.1.6
     # via sphinx
 markdown-it-py==4.0.0
     # via rich
-markupsafe==3.0.2
+markupsafe==3.0.3
     # via jinja2
 marshmallow==4.0.1
     # via -r requirements/pkg.in
@@ -98,7 +98,7 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
-typer==0.19.1
+typer==0.19.2
     # via rstcheck
 typing-extensions==4.15.0
     # via
