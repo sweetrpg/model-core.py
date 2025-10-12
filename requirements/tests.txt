@@ -4,7 +4,7 @@
 #
 #    pip-compile requirements/tests.in
 #
-asgiref==3.9.2
+asgiref==3.10.0
     # via -r requirements/tests.in
 blinker==1.9.0
     # via -r requirements/tests.in
@@ -26,7 +26,7 @@ dnspython==2.8.0
     # via
     #   -r requirements/tests.in
     #   pymongo
-filelock==3.19.1
+filelock==3.20.0
     # via
     #   tox
     #   virtualenv
@@ -39,7 +39,7 @@ packaging==25.0
     #   pyproject-api
     #   pytest
     #   tox
-platformdirs==4.4.0
+platformdirs==4.5.0
     # via
     #   tox
     #   virtualenv
@@ -50,9 +50,9 @@ pluggy==1.6.0
     #   tox
 pygments==2.19.2
     # via pytest
-pymongo==4.15.2
+pymongo==4.15.3
     # via -r requirements/pkg.in
-pyproject-api==1.9.1
+pyproject-api==1.10.0
     # via tox
 pytest==8.4.2
     # via
@@ -62,7 +62,7 @@ pytest==8.4.2
     #   pytest-ordering
 pytest-cov==7.0.0
     # via -r requirements/tests.in
-pytest-env==1.1.5
+pytest-env==1.2.0
     # via -r requirements/tests.in
 pytest-ordering==0.6
     # via -r requirements/tests.in
@@ -70,9 +70,9 @@ python-dotenv==1.1.1
     # via -r requirements/tests.in
 sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
-tox==4.30.3
+tox==4.31.0
     # via -r requirements/tests.in
-virtualenv==20.34.0
+virtualenv==20.35.3
     # via tox
 
 # The following packages are considered to be unsafe in a requirements file:

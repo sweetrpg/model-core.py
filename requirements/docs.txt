@@ -10,7 +10,7 @@ annotated-types==0.7.0
     # via pydantic
 babel==2.17.0
     # via sphinx
-certifi==2025.8.3
+certifi==2025.10.5
     # via requests
 charset-normalizer==3.4.3
     # via requests
@@ -43,20 +43,20 @@ packaging==25.0
     #   sphinx
 pallets-sphinx-themes==2.3.0
     # via -r requirements/docs.in
-pydantic==2.11.10
+pydantic==2.12.0
     # via rstcheck-core
-pydantic-core==2.33.2
+pydantic-core==2.41.1
     # via pydantic
 pygments==2.19.2
     # via
     #   rich
     #   sphinx
     #   sphinx-tabs
-pymongo==4.15.2
+pymongo==4.15.3
     # via -r requirements/pkg.in
 requests==2.32.5
     # via sphinx
-rich==14.1.0
+rich==14.2.0
     # via typer
 roman-numerals-py==3.1.0
     # via sphinx
