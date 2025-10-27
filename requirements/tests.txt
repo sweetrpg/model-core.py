@@ -70,7 +70,7 @@ python-dotenv==1.1.1
     # via -r requirements/tests.in
 sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
-tox==4.31.0
+tox==4.32.0
     # via -r requirements/tests.in
 virtualenv==20.35.3
     # via tox

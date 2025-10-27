@@ -175,7 +175,7 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
-tox==4.31.0
+tox==4.32.0
     # via -r requirements/tests.in
 typer==0.19.2
     # via rstcheck
