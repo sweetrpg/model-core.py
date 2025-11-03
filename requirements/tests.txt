@@ -32,7 +32,7 @@ filelock==3.20.0
     #   virtualenv
 iniconfig==2.3.0
     # via pytest
-marshmallow==4.0.1
+marshmallow==4.1.0
     # via -r requirements/pkg.in
 packaging==25.0
     # via
