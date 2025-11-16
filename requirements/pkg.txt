@@ -6,9 +6,9 @@
 #
 dnspython==2.8.0
     # via pymongo
-marshmallow==4.0.1
+marshmallow==4.1.0
     # via -r requirements/pkg.in
-pymongo==4.15.3
+pymongo==4.15.4
     # via -r requirements/pkg.in
 sweetrpg-common==0.0.1
     # via -r requirements/pkg.in

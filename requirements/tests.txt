@@ -8,13 +8,13 @@ asgiref==3.10.0
     # via -r requirements/tests.in
 blinker==1.9.0
     # via -r requirements/tests.in
-cachetools==6.2.1
+cachetools==6.2.2
     # via tox
 chardet==5.2.0
     # via tox
 colorama==0.4.6
     # via tox
-coverage[toml]==7.11.0
+coverage[toml]==7.11.3
     # via
     #   coverage-badge
     #   pytest-cov
@@ -32,7 +32,7 @@ filelock==3.20.0
     #   virtualenv
 iniconfig==2.3.0
     # via pytest
-marshmallow==4.0.1
+marshmallow==4.1.0
     # via -r requirements/pkg.in
 packaging==25.0
     # via
@@ -50,7 +50,7 @@ pluggy==1.6.0
     #   tox
 pygments==2.19.2
     # via pytest
-pymongo==4.15.3
+pymongo==4.15.4
     # via -r requirements/pkg.in
 pyproject-api==1.10.0
     # via tox
@@ -66,13 +66,13 @@ pytest-env==1.2.0
     # via -r requirements/tests.in
 pytest-ordering==0.6
     # via -r requirements/tests.in
-python-dotenv==1.1.1
+python-dotenv==1.2.1
     # via -r requirements/tests.in
 sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
-tox==4.31.0
+tox==4.32.0
     # via -r requirements/tests.in
-virtualenv==20.35.3
+virtualenv==20.35.4
     # via tox
 
 # The following packages are considered to be unsafe in a requirements file:
