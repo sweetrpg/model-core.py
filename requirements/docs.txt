@@ -43,7 +43,7 @@ packaging==25.0
     #   sphinx
 pallets-sphinx-themes==2.3.0
     # via -r requirements/docs.in
-pydantic==2.12.4
+pydantic==2.12.5
     # via rstcheck-core
 pydantic-core==2.41.5
     # via pydantic
