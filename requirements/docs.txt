@@ -58,7 +58,7 @@ requests==2.32.5
     # via sphinx
 rich==14.2.0
     # via typer
-roman-numerals-py==3.1.0
+roman-numerals==3.1.0
     # via sphinx
 rstcheck==6.2.5
     # via -r requirements/docs.in
@@ -68,7 +68,7 @@ shellingham==1.5.4
     # via typer
 snowballstemmer==3.0.1
     # via sphinx
-sphinx==8.2.3
+sphinx==9.0.4
     # via
     #   -r requirements/docs.in
     #   pallets-sphinx-themes
