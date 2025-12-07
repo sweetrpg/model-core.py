@@ -32,14 +32,14 @@ filelock==3.20.0
     #   virtualenv
 iniconfig==2.3.0
     # via pytest
-marshmallow==4.1.0
+marshmallow==4.1.1
     # via -r requirements/pkg.in
 packaging==25.0
     # via
     #   pyproject-api
     #   pytest
     #   tox
-platformdirs==4.5.0
+platformdirs==4.5.1
     # via
     #   tox
     #   virtualenv
@@ -50,7 +50,7 @@ pluggy==1.6.0
     #   tox
 pygments==2.19.2
     # via pytest
-pymongo==4.15.4
+pymongo==4.15.5
     # via -r requirements/pkg.in
 pyproject-api==1.10.0
     # via tox
