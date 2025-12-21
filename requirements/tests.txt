@@ -8,7 +8,7 @@ asgiref==3.11.0
     # via -r requirements/tests.in
 blinker==1.9.0
     # via -r requirements/tests.in
-cachetools==6.2.3
+cachetools==6.2.4
     # via tox
 chardet==5.2.0
     # via tox
@@ -26,7 +26,7 @@ dnspython==2.8.0
     # via
     #   -r requirements/tests.in
     #   pymongo
-filelock==3.20.0
+filelock==3.20.1
     # via
     #   tox
     #   virtualenv
