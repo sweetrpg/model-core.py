@@ -33,8 +33,8 @@ markdown-it-py==4.0.0
     # via rich
 markupsafe==3.0.3
     # via jinja2
-marshmallow==4.1.1
-    # via -r requirements/pkg.in
+marshmallow==4.1.2
+    # via -r pkg.in
 mdurl==0.1.2
     # via markdown-it-py
 packaging==25.0
@@ -42,7 +42,7 @@ packaging==25.0
     #   pallets-sphinx-themes
     #   sphinx
 pallets-sphinx-themes==2.3.0
-    # via -r requirements/docs.in
+    # via -r docs.in
 pydantic==2.12.5
     # via rstcheck-core
 pydantic-core==2.41.5
@@ -53,7 +53,7 @@ pygments==2.19.2
     #   sphinx
     #   sphinx-tabs
 pymongo==4.15.5
-    # via -r requirements/pkg.in
+    # via -r pkg.in
 requests==2.32.5
     # via sphinx
 rich==14.2.0
@@ -63,7 +63,7 @@ roman-numerals==4.1.0
 roman-numerals-py==4.1.0
     # via sphinx
 rstcheck==6.2.5
-    # via -r requirements/docs.in
+    # via -r docs.in
 rstcheck-core==1.2.2
     # via rstcheck
 shellingham==1.5.4
@@ -72,18 +72,18 @@ snowballstemmer==3.0.1
     # via sphinx
 sphinx==8.2.3
     # via
-    #   -r requirements/docs.in
+    #   -r docs.in
     #   pallets-sphinx-themes
     #   sphinx-issues
     #   sphinx-notfound-page
     #   sphinx-tabs
     #   sphinxcontrib-log-cabinet
 sphinx-issues==5.0.1
-    # via -r requirements/docs.in
+    # via -r docs.in
 sphinx-notfound-page==1.1.0
     # via pallets-sphinx-themes
 sphinx-tabs==3.4.7
-    # via -r requirements/docs.in
+    # via -r docs.in
 sphinxcontrib-applehelp==2.0.0
     # via sphinx
 sphinxcontrib-devhelp==2.0.0
@@ -93,13 +93,13 @@ sphinxcontrib-htmlhelp==2.1.0
 sphinxcontrib-jsmath==1.0.1
     # via sphinx
 sphinxcontrib-log-cabinet==1.0.1
-    # via -r requirements/docs.in
+    # via -r docs.in
 sphinxcontrib-qthelp==2.0.0
     # via sphinx
 sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 sweetrpg-common==0.0.1
-    # via -r requirements/pkg.in
+    # via -r pkg.in
 typer==0.20.1
     # via rstcheck
 typing-extensions==4.15.0
