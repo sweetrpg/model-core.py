@@ -66,7 +66,7 @@ markdown-it-py==4.0.0
     # via rich
 markupsafe==3.0.3
     # via jinja2
-marshmallow==4.1.2
+marshmallow==4.2.0
     # via -r requirements/pkg.in
 mdurl==0.1.2
     # via markdown-it-py
