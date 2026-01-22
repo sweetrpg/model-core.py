@@ -9,13 +9,13 @@ alabaster==1.0.0
 annotated-types==0.7.0
     # via pydantic
 asgiref==3.11.0
-    # via -r requirements/tests.in
+    # via -r tests.in
 babel==2.17.0
     # via sphinx
 black==25.12.0
-    # via -r requirements/dev.in
+    # via -r dev.in
 blinker==1.9.0
-    # via -r requirements/tests.in
+    # via -r tests.in
 build==1.4.0
     # via pip-tools
 cachetools==6.2.4
@@ -38,12 +38,12 @@ coverage[toml]==7.13.1
     #   coverage-badge
     #   pytest-cov
 coverage-badge==1.1.2
-    # via -r requirements/tests.in
+    # via -r tests.in
 distlib==0.4.0
     # via virtualenv
 dnspython==2.8.0
     # via
-    #   -r requirements/tests.in
+    #   -r tests.in
     #   pymongo
 docutils==0.21.2
     # via
@@ -67,7 +67,7 @@ markdown-it-py==4.0.0
 markupsafe==3.0.3
     # via jinja2
 marshmallow==4.2.0
-    # via -r requirements/pkg.in
+    # via -r pkg.in
 mdurl==0.1.2
     # via markdown-it-py
 mypy-extensions==1.1.0
@@ -81,12 +81,13 @@ packaging==25.0
     #   pytest
     #   sphinx
     #   tox
+    #   wheel
 pallets-sphinx-themes==2.3.0
-    # via -r requirements/docs.in
+    # via -r docs.in
 pathspec==1.0.3
     # via black
 pip-tools==7.5.2
-    # via -r requirements/dev.in
+    # via -r dev.in
 platformdirs==4.5.1
     # via
     #   black
@@ -108,7 +109,7 @@ pygments==2.19.2
     #   sphinx
     #   sphinx-tabs
 pymongo==4.16.0
-    # via -r requirements/pkg.in
+    # via -r pkg.in
 pyproject-api==1.10.0
     # via tox
 pyproject-hooks==1.2.0
@@ -117,18 +118,18 @@ pyproject-hooks==1.2.0
     #   pip-tools
 pytest==8.4.2
     # via
-    #   -r requirements/tests.in
+    #   -r tests.in
     #   pytest-cov
     #   pytest-env
     #   pytest-ordering
 pytest-cov==7.0.0
-    # via -r requirements/tests.in
+    # via -r tests.in
 pytest-env==1.2.0
-    # via -r requirements/tests.in
+    # via -r tests.in
 pytest-ordering==0.6
-    # via -r requirements/tests.in
+    # via -r tests.in
 python-dotenv==1.2.1
-    # via -r requirements/tests.in
+    # via -r tests.in
 pytokens==0.3.0
     # via black
 requests==2.32.5
@@ -140,7 +141,7 @@ roman-numerals==4.1.0
 roman-numerals-py==4.1.0
     # via sphinx
 rstcheck==6.2.5
-    # via -r requirements/docs.in
+    # via -r docs.in
 rstcheck-core==1.2.2
     # via rstcheck
 shellingham==1.5.4
@@ -149,18 +150,18 @@ snowballstemmer==3.0.1
     # via sphinx
 sphinx==8.2.3
     # via
-    #   -r requirements/docs.in
+    #   -r docs.in
     #   pallets-sphinx-themes
     #   sphinx-issues
     #   sphinx-notfound-page
     #   sphinx-tabs
     #   sphinxcontrib-log-cabinet
 sphinx-issues==5.0.1
-    # via -r requirements/docs.in
+    # via -r docs.in
 sphinx-notfound-page==1.1.0
     # via pallets-sphinx-themes
 sphinx-tabs==3.4.7
-    # via -r requirements/docs.in
+    # via -r docs.in
 sphinxcontrib-applehelp==2.0.0
     # via sphinx
 sphinxcontrib-devhelp==2.0.0
@@ -170,15 +171,15 @@ sphinxcontrib-htmlhelp==2.1.0
 sphinxcontrib-jsmath==1.0.1
     # via sphinx
 sphinxcontrib-log-cabinet==1.0.1
-    # via -r requirements/docs.in
+    # via -r docs.in
 sphinxcontrib-qthelp==2.0.0
     # via sphinx
 sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 sweetrpg-common==0.0.1
-    # via -r requirements/pkg.in
+    # via -r pkg.in
 tox==4.34.1
-    # via -r requirements/tests.in
+    # via -r tests.in
 typer==0.21.1
     # via rstcheck
 typing-extensions==4.15.0
@@ -193,7 +194,7 @@ urllib3==2.6.3
     # via requests
 virtualenv==20.36.1
     # via tox
-wheel==0.45.1
+wheel==0.46.2
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
