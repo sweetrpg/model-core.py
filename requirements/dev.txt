@@ -66,13 +66,13 @@ markdown-it-py==4.0.0
     # via rich
 markupsafe==3.0.3
     # via jinja2
-marshmallow==4.2.0
+marshmallow==4.2.1
     # via -r requirements/pkg.in
 mdurl==0.1.2
     # via markdown-it-py
 mypy-extensions==1.1.0
     # via black
-packaging==25.0
+packaging==26.0
     # via
     #   black
     #   build
@@ -81,6 +81,7 @@ packaging==25.0
     #   pytest
     #   sphinx
     #   tox
+    #   wheel
 pallets-sphinx-themes==2.3.0
     # via -r requirements/docs.in
 pathspec==1.0.3
@@ -129,11 +130,11 @@ pytest-ordering==0.6
     # via -r requirements/tests.in
 python-dotenv==1.2.1
     # via -r requirements/tests.in
-pytokens==0.3.0
+pytokens==0.4.0
     # via black
 requests==2.32.5
     # via sphinx
-rich==14.2.0
+rich==14.3.1
     # via typer
 roman-numerals==4.1.0
     # via roman-numerals-py
@@ -193,7 +194,7 @@ urllib3==2.6.3
     # via requests
 virtualenv==20.36.1
     # via tox
-wheel==0.45.1
+wheel==0.46.3
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
