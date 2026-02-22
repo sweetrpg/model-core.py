@@ -26,7 +26,7 @@ dnspython==2.8.0
     # via
     #   -r requirements/tests.in
     #   pymongo
-filelock==3.24.0
+filelock==3.24.3
     # via
     #   tox
     #   virtualenv
@@ -39,7 +39,7 @@ packaging==26.0
     #   pyproject-api
     #   pytest
     #   tox
-platformdirs==4.9.1
+platformdirs==4.9.2
     # via
     #   tox
     #   virtualenv
@@ -70,9 +70,9 @@ python-dotenv==1.2.1
     # via -r requirements/tests.in
 sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
-tox==4.35.0
+tox==4.44.0
     # via -r requirements/tests.in
-virtualenv==20.36.1
+virtualenv==20.38.0
     # via tox
 
 # The following packages are considered to be unsafe in a requirements file:
