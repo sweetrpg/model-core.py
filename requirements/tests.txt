@@ -8,7 +8,7 @@ asgiref==3.11.1
     # via -r requirements/tests.in
 blinker==1.9.0
     # via -r requirements/tests.in
-cachetools==7.0.1
+cachetools==7.0.3
     # via tox
 colorama==0.4.6
     # via tox
@@ -24,7 +24,7 @@ dnspython==2.8.0
     # via
     #   -r requirements/tests.in
     #   pymongo
-filelock==3.24.3
+filelock==3.25.0
     # via
     #   python-discovery
     #   tox
@@ -38,7 +38,7 @@ packaging==26.0
     #   pyproject-api
     #   pytest
     #   tox
-platformdirs==4.9.2
+platformdirs==4.9.4
     # via
     #   python-discovery
     #   tox
@@ -66,13 +66,15 @@ pytest-env==1.2.0
     # via -r requirements/tests.in
 pytest-ordering==0.6
     # via -r requirements/tests.in
-python-discovery==1.1.0
+python-discovery==1.1.1
     # via virtualenv
-python-dotenv==1.2.1
+python-dotenv==1.2.2
     # via -r requirements/tests.in
 sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
-tox==4.46.3
+tomli-w==1.2.0
+    # via tox
+tox==4.49.0
     # via -r requirements/tests.in
 virtualenv==21.1.0
     # via tox

@@ -20,11 +20,11 @@ blinker==1.9.0
     # via -r requirements/tests.in
 build==1.4.0
     # via pip-tools
-cachetools==7.0.1
+cachetools==7.0.3
     # via tox
 certifi==2026.2.25
     # via requests
-charset-normalizer==3.4.4
+charset-normalizer==3.4.5
     # via requests
 click==8.3.1
     # via
@@ -50,14 +50,14 @@ docutils==0.21.2
     #   rstcheck-core
     #   sphinx
     #   sphinx-tabs
-filelock==3.24.3
+filelock==3.25.0
     # via
     #   python-discovery
     #   tox
     #   virtualenv
 idna==3.11
     # via requests
-imagesize==1.4.1
+imagesize==2.0.0
     # via sphinx
 iniconfig==2.3.0
     # via pytest
@@ -89,7 +89,7 @@ pathspec==1.0.4
     # via black
 pip-tools==7.5.3
     # via -r requirements/dev.in
-platformdirs==4.9.2
+platformdirs==4.9.4
     # via
     #   black
     #   python-discovery
@@ -130,9 +130,9 @@ pytest-env==1.2.0
     # via -r requirements/tests.in
 pytest-ordering==0.6
     # via -r requirements/tests.in
-python-discovery==1.1.0
+python-discovery==1.1.1
     # via virtualenv
-python-dotenv==1.2.1
+python-dotenv==1.2.2
     # via -r requirements/tests.in
 pytokens==0.4.1
     # via black
@@ -164,7 +164,7 @@ sphinx-issues==5.0.1
     # via -r requirements/docs.in
 sphinx-notfound-page==1.1.0
     # via pallets-sphinx-themes
-sphinx-tabs==3.4.7
+sphinx-tabs==3.5.0
     # via -r requirements/docs.in
 sphinxcontrib-applehelp==2.0.0
     # via sphinx
@@ -182,7 +182,9 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
-tox==4.46.3
+tomli-w==1.2.0
+    # via tox
+tox==4.49.0
     # via -r requirements/tests.in
 typer==0.24.1
     # via rstcheck
