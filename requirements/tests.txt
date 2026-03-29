@@ -31,7 +31,7 @@ filelock==3.25.2
     #   virtualenv
 iniconfig==2.3.0
     # via pytest
-marshmallow==4.2.2
+marshmallow==4.2.3
     # via -r requirements/pkg.in
 packaging==26.0
     # via
@@ -66,15 +66,17 @@ pytest-env==1.2.0
     # via -r requirements/tests.in
 pytest-ordering==0.6
     # via -r requirements/tests.in
-python-discovery==1.2.0
-    # via virtualenv
+python-discovery==1.2.1
+    # via
+    #   tox
+    #   virtualenv
 python-dotenv==1.2.2
     # via -r requirements/tests.in
 sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
 tomli-w==1.2.0
     # via tox
-tox==4.50.3
+tox==4.51.0
     # via -r requirements/tests.in
 virtualenv==21.2.0
     # via tox
