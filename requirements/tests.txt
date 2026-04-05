@@ -31,7 +31,7 @@ filelock==3.25.2
     #   virtualenv
 iniconfig==2.3.0
     # via pytest
-marshmallow==4.2.3
+marshmallow==4.3.0
     # via -r requirements/pkg.in
 packaging==26.0
     # via
@@ -48,7 +48,7 @@ pluggy==1.6.0
     #   pytest
     #   pytest-cov
     #   tox
-pygments==2.19.2
+pygments==2.20.0
     # via pytest
 pymongo==4.16.0
     # via -r requirements/pkg.in
@@ -76,7 +76,7 @@ sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
 tomli-w==1.2.0
     # via tox
-tox==4.51.0
+tox==4.52.0
     # via -r requirements/tests.in
 virtualenv==21.2.0
     # via tox
