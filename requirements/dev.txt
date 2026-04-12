@@ -18,7 +18,7 @@ black==25.12.0
     # via -r requirements/dev.in
 blinker==1.9.0
     # via -r requirements/tests.in
-build==1.4.2
+build==1.4.3
     # via pip-tools
 cachetools==7.0.5
     # via tox
@@ -89,7 +89,7 @@ pathspec==1.0.4
     # via black
 pip-tools==7.5.3
     # via -r requirements/dev.in
-platformdirs==4.9.4
+platformdirs==4.9.6
     # via
     #   black
     #   python-discovery
@@ -130,7 +130,7 @@ pytest-env==1.2.0
     # via -r requirements/tests.in
 pytest-ordering==0.6
     # via -r requirements/tests.in
-python-discovery==1.2.1
+python-discovery==1.2.2
     # via
     #   tox
     #   virtualenv
@@ -140,7 +140,7 @@ pytokens==0.4.1
     # via black
 requests==2.33.1
     # via sphinx
-rich==14.3.3
+rich==14.3.4
     # via typer
 roman-numerals==4.1.0
     # via roman-numerals-py
@@ -186,7 +186,7 @@ sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
 tomli-w==1.2.0
     # via tox
-tox==4.52.0
+tox==4.52.1
     # via -r requirements/tests.in
 typer==0.24.1
     # via rstcheck
@@ -199,7 +199,7 @@ typing-inspection==0.4.2
     # via pydantic
 urllib3==2.6.3
     # via requests
-virtualenv==21.2.0
+virtualenv==21.2.1
     # via tox
 wheel==0.46.3
     # via pip-tools

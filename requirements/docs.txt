@@ -58,7 +58,7 @@ pymongo==4.16.0
     # via -r requirements/pkg.in
 requests==2.33.1
     # via sphinx
-rich==14.3.3
+rich==14.3.4
     # via typer
 roman-numerals==4.1.0
     # via roman-numerals-py
