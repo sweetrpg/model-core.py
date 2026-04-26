@@ -18,15 +18,15 @@ black==25.12.0
     # via -r requirements/dev.in
 blinker==1.9.0
     # via -r requirements/tests.in
-build==1.4.3
+build==1.4.4
     # via pip-tools
-cachetools==7.0.5
+cachetools==7.0.6
     # via tox
-certifi==2026.2.25
+certifi==2026.4.22
     # via requests
 charset-normalizer==3.4.7
     # via requests
-click==8.3.2
+click==8.3.3
     # via
     #   black
     #   pip-tools
@@ -50,12 +50,12 @@ docutils==0.21.2
     #   rstcheck-core
     #   sphinx
     #   sphinx-tabs
-filelock==3.28.0
+filelock==3.29.0
     # via
     #   python-discovery
     #   tox
     #   virtualenv
-idna==3.11
+idna==3.13
     # via requests
 imagesize==2.0.0
     # via sphinx
@@ -73,7 +73,7 @@ mdurl==0.1.2
     # via markdown-it-py
 mypy-extensions==1.1.0
     # via black
-packaging==26.1
+packaging==26.2
     # via
     #   black
     #   build
@@ -85,7 +85,7 @@ packaging==26.1
     #   wheel
 pallets-sphinx-themes==2.5.0
     # via -r requirements/docs.in
-pathspec==1.0.4
+pathspec==1.1.0
     # via black
 pip-tools==7.5.3
     # via -r requirements/dev.in
@@ -100,9 +100,9 @@ pluggy==1.6.0
     #   pytest
     #   pytest-cov
     #   tox
-pydantic==2.13.2
+pydantic==2.13.3
     # via rstcheck-core
-pydantic-core==2.46.2
+pydantic-core==2.46.3
     # via pydantic
 pygments==2.20.0
     # via
@@ -110,7 +110,7 @@ pygments==2.20.0
     #   rich
     #   sphinx
     #   sphinx-tabs
-pymongo==4.16.0
+pymongo==4.17.0
     # via -r requirements/pkg.in
 pyproject-api==1.10.0
     # via tox
@@ -188,7 +188,7 @@ tomli-w==1.2.0
     # via tox
 tox==4.53.0
     # via -r requirements/tests.in
-typer==0.24.1
+typer==0.24.2
     # via rstcheck
 typing-extensions==4.15.0
     # via
@@ -201,7 +201,7 @@ urllib3==2.6.3
     # via requests
 virtualenv==21.2.4
     # via tox
-wheel==0.46.3
+wheel==0.47.0
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:

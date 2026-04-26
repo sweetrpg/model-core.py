@@ -8,7 +8,7 @@ asgiref==3.11.1
     # via -r requirements/tests.in
 blinker==1.9.0
     # via -r requirements/tests.in
-cachetools==7.0.5
+cachetools==7.0.6
     # via tox
 colorama==0.4.6
     # via tox
@@ -24,7 +24,7 @@ dnspython==2.8.0
     # via
     #   -r requirements/tests.in
     #   pymongo
-filelock==3.28.0
+filelock==3.29.0
     # via
     #   python-discovery
     #   tox
@@ -33,7 +33,7 @@ iniconfig==2.3.0
     # via pytest
 marshmallow==4.3.0
     # via -r requirements/pkg.in
-packaging==26.1
+packaging==26.2
     # via
     #   pyproject-api
     #   pytest
@@ -50,7 +50,7 @@ pluggy==1.6.0
     #   tox
 pygments==2.20.0
     # via pytest
-pymongo==4.16.0
+pymongo==4.17.0
     # via -r requirements/pkg.in
 pyproject-api==1.10.0
     # via tox
