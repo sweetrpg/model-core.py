@@ -20,7 +20,7 @@ click==8.3.3
     # via typer
 dnspython==2.8.0
     # via pymongo
-docutils==0.21.2
+docutils==0.22.4
     # via
     #   rstcheck-core
     #   sphinx
@@ -100,7 +100,7 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
-typer==0.24.2
+typer==0.25.1
     # via rstcheck
 typing-extensions==4.15.0
     # via

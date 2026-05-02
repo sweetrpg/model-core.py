@@ -8,7 +8,7 @@ asgiref==3.11.1
     # via -r requirements/tests.in
 blinker==1.9.0
     # via -r requirements/tests.in
-cachetools==7.0.6
+cachetools==7.1.0
     # via tox
 colorama==0.4.6
     # via tox
@@ -62,7 +62,7 @@ pytest==9.0.3
     #   pytest-ordering
 pytest-cov==7.1.0
     # via -r requirements/tests.in
-pytest-env==1.2.0
+pytest-env==1.6.0
     # via -r requirements/tests.in
 pytest-ordering==0.6
     # via -r requirements/tests.in
@@ -71,14 +71,16 @@ python-discovery==1.2.2
     #   tox
     #   virtualenv
 python-dotenv==1.2.2
-    # via -r requirements/tests.in
+    # via
+    #   -r requirements/tests.in
+    #   pytest-env
 sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
 tomli-w==1.2.0
     # via tox
-tox==4.53.0
+tox==4.53.1
     # via -r requirements/tests.in
-virtualenv==21.2.4
+virtualenv==21.3.0
     # via tox
 
 # The following packages are considered to be unsafe in a requirements file:

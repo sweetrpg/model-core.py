@@ -18,9 +18,9 @@ black==26.3.1
     # via -r requirements/dev.in
 blinker==1.9.0
     # via -r requirements/tests.in
-build==1.4.4
+build==1.5.0
     # via pip-tools
-cachetools==7.0.6
+cachetools==7.1.0
     # via tox
 certifi==2026.4.22
     # via requests
@@ -45,7 +45,7 @@ dnspython==2.8.0
     # via
     #   -r requirements/tests.in
     #   pymongo
-docutils==0.21.2
+docutils==0.22.4
     # via
     #   rstcheck-core
     #   sphinx
@@ -85,7 +85,7 @@ packaging==26.2
     #   wheel
 pallets-sphinx-themes==2.5.0
     # via -r requirements/docs.in
-pathspec==1.1.0
+pathspec==1.1.1
     # via black
 pip-tools==7.5.3
     # via -r requirements/dev.in
@@ -126,7 +126,7 @@ pytest==9.0.3
     #   pytest-ordering
 pytest-cov==7.1.0
     # via -r requirements/tests.in
-pytest-env==1.2.0
+pytest-env==1.6.0
     # via -r requirements/tests.in
 pytest-ordering==0.6
     # via -r requirements/tests.in
@@ -135,7 +135,9 @@ python-discovery==1.2.2
     #   tox
     #   virtualenv
 python-dotenv==1.2.2
-    # via -r requirements/tests.in
+    # via
+    #   -r requirements/tests.in
+    #   pytest-env
 pytokens==0.4.1
     # via black
 requests==2.33.1
@@ -184,9 +186,9 @@ sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
 tomli-w==1.2.0
     # via tox
-tox==4.53.0
+tox==4.53.1
     # via -r requirements/tests.in
-typer==0.24.2
+typer==0.25.1
     # via rstcheck
 typing-extensions==4.15.0
     # via
@@ -197,7 +199,7 @@ typing-inspection==0.4.2
     # via pydantic
 urllib3==2.6.3
     # via requests
-virtualenv==21.2.4
+virtualenv==21.3.0
     # via tox
 wheel==0.47.0
     # via pip-tools
