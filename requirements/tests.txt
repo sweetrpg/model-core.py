@@ -8,7 +8,7 @@ asgiref==3.11.1
     # via -r requirements/tests.in
 blinker==1.9.0
     # via -r requirements/tests.in
-cachetools==7.1.2
+cachetools==7.1.4
     # via tox
 colorama==0.4.6
     # via tox
