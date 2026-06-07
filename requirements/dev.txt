@@ -38,7 +38,7 @@ coverage[toml]==7.14.1
     #   pytest-cov
 coverage-badge==1.1.2
     # via -r requirements/tests.in
-distlib==0.4.0
+distlib==0.4.1
     # via virtualenv
 dnspython==2.8.0
     # via
@@ -49,12 +49,12 @@ docutils==0.22.4
     #   rstcheck-core
     #   sphinx
     #   sphinx-tabs
-filelock==3.29.0
+filelock==3.29.1
     # via
     #   python-discovery
     #   tox
     #   virtualenv
-idna==3.17
+idna==3.18
     # via requests
 imagesize==2.0.0
     # via sphinx
@@ -151,7 +151,7 @@ rstcheck-core==1.3.0
     # via rstcheck
 shellingham==1.5.4
     # via typer
-snowballstemmer==3.1.0
+snowballstemmer==3.1.1
     # via sphinx
 sphinx==9.1.0
     # via
@@ -185,9 +185,9 @@ sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
 tomli-w==1.2.0
     # via tox
-tox==4.55.0
+tox==4.55.1
     # via -r requirements/tests.in
-typer==0.26.4
+typer==0.26.7
     # via rstcheck
 typing-extensions==4.15.0
     # via
@@ -198,7 +198,7 @@ typing-inspection==0.4.2
     # via pydantic
 urllib3==2.7.0
     # via requests
-virtualenv==21.4.1
+virtualenv==21.4.2
     # via tox
 wheel==0.47.0
     # via pip-tools
