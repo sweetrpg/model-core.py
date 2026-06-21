@@ -22,7 +22,7 @@ build==1.5.0
     # via pip-tools
 cachetools==7.1.4
     # via tox
-certifi==2026.5.20
+certifi==2026.6.17
     # via requests
 charset-normalizer==3.4.7
     # via requests
@@ -32,7 +32,7 @@ click==8.4.1
     #   pip-tools
 colorama==0.4.6
     # via tox
-coverage[toml]==7.14.1
+coverage[toml]==7.14.2
     # via
     #   coverage-badge
     #   pytest-cov
@@ -117,7 +117,7 @@ pyproject-hooks==1.2.0
     # via
     #   build
     #   pip-tools
-pytest==9.1.0
+pytest==9.1.1
     # via
     #   -r requirements/tests.in
     #   pytest-cov
@@ -198,7 +198,7 @@ typing-inspection==0.4.2
     # via pydantic
 urllib3==2.7.0
     # via requests
-virtualenv==21.5.0
+virtualenv==21.5.1
     # via tox
 wheel==0.47.0
     # via pip-tools
