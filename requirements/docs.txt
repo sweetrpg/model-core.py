@@ -100,7 +100,7 @@ sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
 typer==0.26.8
     # via rstcheck
-typing-extensions==4.15.0
+typing-extensions==4.16.0
     # via
     #   pydantic
     #   pydantic-core

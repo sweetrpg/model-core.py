@@ -32,7 +32,7 @@ click==8.4.2
     #   pip-tools
 colorama==0.4.6
     # via tox
-coverage[toml]==7.14.3
+coverage[toml]==7.15.0
     # via
     #   coverage-badge
     #   pytest-cov
@@ -49,7 +49,7 @@ docutils==0.22.4
     #   rstcheck-core
     #   sphinx
     #   sphinx-tabs
-filelock==3.29.4
+filelock==3.29.5
     # via
     #   python-discovery
     #   tox
@@ -129,7 +129,7 @@ pytest-env==1.6.0
     # via -r requirements/tests.in
 pytest-ordering==0.6
     # via -r requirements/tests.in
-python-discovery==1.4.2
+python-discovery==1.4.3
     # via
     #   tox
     #   virtualenv
@@ -189,7 +189,7 @@ tox==4.56.1
     # via -r requirements/tests.in
 typer==0.26.8
     # via rstcheck
-typing-extensions==4.15.0
+typing-extensions==4.16.0
     # via
     #   pydantic
     #   pydantic-core
