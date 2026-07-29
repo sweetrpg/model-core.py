@@ -76,7 +76,7 @@ jobs:
                   tox exec -e ${{ steps.get_lang_version.outputs.tox_env }} -- coverage xml -o coverage-pages/coverage.xml
                   tox exec -e ${{ steps.get_lang_version.outputs.tox_env }} -- coverage html -d coverage-pages/htmlcov
             - name: upload-coverage-artifact
-              uses: actions/upload-artifact@v4
+              uses: actions/upload-artifact@v7
               with:
                   name: coverage-report-${{ matrix.name }}
                   path: coverage-pages/
@@ -146,7 +146,7 @@ jobs:
             #         python3 -m pip install build --user
             #         python3 -m build
             # - name: Store the distribution packages
-            #   uses: actions/upload-artifact@v4
+            #   uses: actions/upload-artifact@v7
             #   with:
             #     name: python-package-distributions
             #     path: dist/
