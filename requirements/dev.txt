@@ -145,9 +145,9 @@ rich==15.0.0
     # via typer
 roman-numerals==4.1.0
     # via sphinx
-rstcheck==6.2.5
+rstcheck==6.3.0
     # via -r requirements/docs.in
-rstcheck-core==1.3.0
+rstcheck-core==1.3.1
     # via rstcheck
 shellingham==1.5.4
     # via typer
