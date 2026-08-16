@@ -6,7 +6,7 @@
 #
 alabaster==1.0.0
     # via sphinx
-annotated-doc==0.0.4
+annotated-doc==0.0.5
     # via typer
 annotated-types==0.8.0
     # via pydantic
@@ -14,7 +14,7 @@ babel==2.18.0
     # via sphinx
 certifi==2026.7.22
     # via requests
-charset-normalizer==3.4.9
+charset-normalizer==3.5.1
     # via requests
 dnspython==2.8.0
     # via pymongo
@@ -33,11 +33,11 @@ markdown-it-py==4.2.0
     # via rich
 markupsafe==3.0.3
     # via jinja2
-marshmallow==4.3.0
+marshmallow==4.3.1
     # via -r requirements/pkg.in
 mdurl==0.1.2
     # via markdown-it-py
-packaging==26.2
+packaging==26.3
     # via
     #   pallets-sphinx-themes
     #   sphinx
@@ -60,9 +60,9 @@ rich==15.0.0
     # via typer
 roman-numerals==4.1.0
     # via sphinx
-rstcheck==6.2.5
+rstcheck==6.3.0
     # via -r requirements/docs.in
-rstcheck-core==1.3.0
+rstcheck-core==1.3.1
     # via rstcheck
 shellingham==1.5.4
     # via typer
@@ -98,14 +98,14 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
-typer==0.27.0
+typer==0.27.1
     # via rstcheck
 typing-extensions==4.16.0
     # via
     #   pydantic
     #   pydantic-core
     #   typing-inspection
-typing-inspection==0.4.2
+typing-inspection==0.4.4
     # via pydantic
 urllib3==2.7.0
     # via requests
