@@ -32,10 +32,10 @@
             
   <h1>Source code for sweetrpg_model_core.schema.base</h1><div class="highlight"><pre>
 <span></span><span class="c1"># -*- coding: utf-8 -*-</span>
-<span class="n">__author__</span> <span class="o">=</span> <span class="s2">&quot;Paul Schifferer &lt;dm@sweetrpg.com&gt;&quot;</span>
-<span class="sd">&quot;&quot;&quot;</span>
+<span class="n">__author__</span> <span class="o">=</span> <span class="s2">"Paul Schifferer &lt;dm@sweetrpg.com&gt;"</span>
+<span class="sd">"""</span>
 <span class="sd">Base schema for model classes.</span>
-<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">"""</span>
 
 <span class="kn">from</span><span class="w"> </span><span class="nn">marshmallow</span><span class="w"> </span><span class="kn">import</span> <span class="n">Schema</span><span class="p">,</span> <span class="n">fields</span><span class="p">,</span> <span class="n">EXCLUDE</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">marshmallow</span><span class="w"> </span><span class="kn">import</span> <span class="n">pre_load</span>
@@ -47,10 +47,10 @@
 <div class="viewcode-block" id="BaseSchema">
 <a class="viewcode-back" href="../../../api.html#sweetrpg_model_core.schema.base.BaseSchema">[docs]</a>
 <span class="k">class</span><span class="w"> </span><span class="nc">BaseSchema</span><span class="p">(</span><span class="n">Schema</span><span class="p">):</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Base type for schema classes.</span>
+<span class="w">    </span><span class="sd">"""Base type for schema classes.</span>
 <span class="sd">    Inherit from this type for database schema objects to gain ID and date conversion</span>
 <span class="sd">    pre-load functionality, and to have ID and audit fields setup automatically.</span>
-<span class="sd">    &quot;&quot;&quot;</span>
+<span class="sd">    """</span>
 
 <div class="viewcode-block" id="BaseSchema.Meta">
 <a class="viewcode-back" href="../../../api.html#sweetrpg_model_core.schema.base.BaseSchema.Meta">[docs]</a>
@@ -62,8 +62,8 @@
 <a class="viewcode-back" href="../../../api.html#sweetrpg_model_core.schema.base.BaseSchema.handle_id">[docs]</a>
     <span class="nd">@pre_load</span>
     <span class="k">def</span><span class="w"> </span><span class="nf">handle_id</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">in_data</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-<span class="w">        </span><span class="sd">&quot;&quot;&quot;Converts _id into id&quot;&quot;&quot;</span>
-        <span class="n">in_data</span><span class="p">[</span><span class="s2">&quot;id&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">in_data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;_id&quot;</span><span class="p">)</span> <span class="ow">or</span> <span class="n">in_data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;id&quot;</span><span class="p">)</span>
+<span class="w">        </span><span class="sd">"""Converts _id into id"""</span>
+        <span class="n">in_data</span><span class="p">[</span><span class="s2">"id"</span><span class="p">]</span> <span class="o">=</span> <span class="n">in_data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"_id"</span><span class="p">)</span> <span class="ow">or</span> <span class="n">in_data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"id"</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">in_data</span></div>
 
 
@@ -71,8 +71,8 @@
 <a class="viewcode-back" href="../../../api.html#sweetrpg_model_core.schema.base.BaseSchema.handle_dates">[docs]</a>
     <span class="nd">@pre_load</span>
     <span class="k">def</span><span class="w"> </span><span class="nf">handle_dates</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">in_data</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-<span class="w">        </span><span class="sd">&quot;&quot;&quot;Converts date/time value to an ISO formatted string.&quot;&quot;&quot;</span>
-        <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;created_at&quot;</span><span class="p">,</span> <span class="s2">&quot;updated_at&quot;</span><span class="p">,</span> <span class="s2">&quot;deleted_at&quot;</span><span class="p">]:</span>
+<span class="w">        </span><span class="sd">"""Converts date/time value to an ISO formatted string."""</span>
+        <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">"created_at"</span><span class="p">,</span> <span class="s2">"updated_at"</span><span class="p">,</span> <span class="s2">"deleted_at"</span><span class="p">]:</span>
             <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">in_data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">k</span><span class="p">),</span> <span class="n">datetime</span><span class="p">):</span>
                 <span class="n">in_data</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">in_data</span><span class="p">[</span><span class="n">k</span><span class="p">]</span><span class="o">.</span><span class="n">isoformat</span><span class="p">()</span>
         <span class="k">return</span> <span class="n">in_data</span></div>
@@ -82,12 +82,12 @@
 <a class="viewcode-back" href="../../../api.html#sweetrpg_model_core.schema.base.BaseSchema.make_object">[docs]</a>
     <span class="nd">@post_load</span>
     <span class="k">def</span><span class="w"> </span><span class="nf">make_object</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-<span class="w">        </span><span class="sd">&quot;&quot;&quot;Create a model object from the provided data.</span>
+<span class="w">        </span><span class="sd">"""Create a model object from the provided data.</span>
 
 <span class="sd">        :param data: A dictionary of data to populate the model object.</span>
 <span class="sd">        :returns: An instance of the `model_class`.</span>
-<span class="sd">        &quot;&quot;&quot;</span>
-        <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;data: </span><span class="si">%s</span><span class="s2">, kwargs: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">kwargs</span><span class="p">)</span>
+<span class="sd">        """</span>
+        <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">"data: </span><span class="si">%s</span><span class="s2">, kwargs: </span><span class="si">%s</span><span class="s2">"</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">kwargs</span><span class="p">)</span>
         <span class="nb">print</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">kwargs</span><span class="p">)</span>  <span class="c1"># TODO: remove</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">model_class</span><span class="p">(</span><span class="o">**</span><span class="n">data</span><span class="p">)</span></div>
 
@@ -103,15 +103,15 @@
 
 
 <span class="k">class</span><span class="w"> </span><span class="nc">BaseEmbeddedSchema</span><span class="p">(</span><span class="n">Schema</span><span class="p">):</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Base schema for embedded objects.&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">"""Base schema for embedded objects."""</span>
 
     <span class="k">class</span><span class="w"> </span><span class="nc">Meta</span><span class="p">:</span>
         <span class="n">unknown</span> <span class="o">=</span> <span class="n">EXCLUDE</span>
 
     <span class="nd">@post_load</span>
     <span class="k">def</span><span class="w"> </span><span class="nf">make_object</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-<span class="w">        </span><span class="sd">&quot;&quot;&quot; &quot;&quot;&quot;</span>
-        <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;data: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span>
+<span class="w">        </span><span class="sd">""" """</span>
+        <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">"data: </span><span class="si">%s</span><span class="s2">"</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">model_class</span><span class="p">(</span><span class="o">**</span><span class="n">data</span><span class="p">)</span>
 </pre></div>
 
