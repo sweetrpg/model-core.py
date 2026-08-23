@@ -23,7 +23,7 @@ docutils==0.22.4
     #   rstcheck-core
     #   sphinx
     #   sphinx-tabs
-idna==3.18
+idna==3.19
     # via requests
 imagesize==2.0.0
     # via sphinx
@@ -47,7 +47,7 @@ pydantic==2.13.4
     # via rstcheck-core
 pydantic-core==2.46.4
     # via pydantic
-pygments==2.20.0
+pygments==2.21.0
     # via
     #   rich
     #   sphinx
