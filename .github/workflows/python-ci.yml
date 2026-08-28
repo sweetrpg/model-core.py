@@ -18,9 +18,6 @@ on:
         workflows: ["Update Requirements"]
         types: [completed]
     workflow_dispatch:
-    repository_dispatch:
-        types:
-            - common-published
 
 jobs:
     tests:
@@ -131,75 +128,3 @@ jobs:
                   publish_dir: ./docs/_build/html
                   destination_dir: python
 
-    publish:
-        needs: [tests]
-        runs-on: ubuntu-latest
-        concurrency: publish
-        permissions:
-            id-token: write
-        steps:
-            - uses: actions/checkout@v6
-              with:
-                fetch-depth: 0
-            # - name: Build a binary wheel and a source tarball
-            #   run: |
-            #         python3 -m pip install build --user
-            #         python3 -m build
-            # - name: Store the distribution packages
-            #   uses: actions/upload-artifact@v4
-            #   with:
-            #     name: python-package-distributions
-            #     path: dist/
-            # - name: publish
-            #   uses: pypa/gh-action-pypi-publish@release/v1
-            - name: publish
-              uses: relekang/python-semantic-release@v7.34.6
-              with:
-                additional_options: "--patch"
-                github_token: ${{ secrets.GITHUB_TOKEN }}
-                repository_username: __token__
-                repository_password: ${{ secrets.PYPI_TOKEN }}
-
-    notify:
-        needs: [publish]
-        runs-on: ubuntu-latest
-        strategy:
-            fail-fast: false
-            matrix:
-                include:
-                    - repo: api-core
-                    - repo: catalog-api
-                    - repo: catalog-data
-                    - repo: catalog-data-processor
-                    - repo: catalog-objects
-                    - repo: catalog-web
-                    - repo: client
-                    - repo: data-api
-                    - repo: data-objects
-                    - repo: db
-                    - repo: initiative-api
-                    - repo: initiative-data
-                    - repo: initiative-objects
-                    - repo: initiative-web
-                    - repo: kv-api
-                    - repo: kv-data
-                    - repo: kv-expression-processor
-                    - repo: kv-key-processor
-                    - repo: kv-objects
-                    - repo: kv-value-calculator
-                    - repo: kv-web
-                    - repo: library-api
-                    - repo: library-data
-                    - repo: library-objects
-                    - repo: library-web
-                    - repo: main-web
-                    - repo: model-core
-                    - repo: shared-web
-                    - repo: web-core
-        steps:
-            - uses: juztcode/repo-ditpatch-action@v1
-              continue-on-error: true
-              with:
-                event-type: model-core-published
-                token: ${{ secrets.REPO_ACCESS_TOKEN }}
-                repository: sweetrpg/${{ matrix.repo }}
