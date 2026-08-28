@@ -6,7 +6,7 @@ Base objects for model and embedded model.
 
 from reprlib import recursive_repr
 import logging
-from datetime import datetime
+from datetime import datetime, timezone
 from sweetrpg_model_core.convert.date import to_datetime
 
 
@@ -62,7 +62,7 @@ class Model(BaseModel):
     def __init__(self, *args, **kwargs):
         """Create a base model object."""
         logging.debug("args: %s, kwargs: %s", args, kwargs)
-        now = datetime.utcnow()  # .isoformat()
+        now = datetime.now(timezone.utc)  # .isoformat()
 
         self.id = kwargs.get("_id") or kwargs.get("id")
         logging.debug("id: %s", self.id)
