@@ -52,7 +52,7 @@ pygments==2.21.0
     #   rich
     #   sphinx
     #   sphinx-tabs
-pymongo==4.18.0
+pymongo==4.18.1
     # via -r requirements/pkg.in
 requests==2.34.2
     # via sphinx
