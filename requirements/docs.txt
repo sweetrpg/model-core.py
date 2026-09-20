@@ -23,7 +23,7 @@ docutils==0.22.4
     #   rstcheck-core
     #   sphinx
     #   sphinx-tabs
-idna==3.19
+idna==3.20
     # via requests
 imagesize==2.0.1
     # via sphinx
@@ -107,5 +107,5 @@ typing-extensions==4.16.0
     #   typing-inspection
 typing-inspection==0.4.4
     # via pydantic
-urllib3==2.7.0
+urllib3==2.8.0
     # via requests
