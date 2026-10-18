@@ -43,16 +43,16 @@ packaging==26.3
     #   sphinx
 pallets-sphinx-themes==2.5.0
     # via -r requirements/docs.in
-pydantic==2.14.0
+pydantic==2.14.1
     # via rstcheck-core
-pydantic-core==2.50.0
+pydantic-core==2.50.1
     # via pydantic
 pygments==2.21.0
     # via
     #   rich
     #   sphinx
     #   sphinx-tabs
-pymongo==4.18.3
+pymongo==4.19.0
     # via -r requirements/pkg.in
 requests==2.34.2
     # via sphinx
