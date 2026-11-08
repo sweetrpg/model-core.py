@@ -8,11 +8,11 @@ asgiref==3.13.0
     # via -r requirements/tests.in
 blinker==1.9.0
     # via -r requirements/tests.in
-cachetools==7.2.8
+cachetools==8.0.0
     # via tox
 colorama==0.4.6
     # via tox
-coverage[toml]==7.17.0
+coverage[toml]==7.17.2
     # via
     #   coverage-badge
     #   pytest-cov
@@ -20,18 +20,18 @@ coverage-badge==1.1.2
     # via -r requirements/tests.in
 distlib==0.4.4
     # via virtualenv
-dnspython==2.9.1
+dnspython==2.9.2
     # via
     #   -r requirements/tests.in
     #   pymongo
-filelock==4.2.6
+filelock==4.2.9
     # via
     #   python-discovery
     #   tox
     #   virtualenv
 iniconfig==2.3.1
     # via pytest
-marshmallow==4.3.1
+marshmallow==4.4.0
     # via -r requirements/pkg.in
 packaging==26.3
     # via
@@ -39,7 +39,7 @@ packaging==26.3
     #   pytest
     #   tox
     #   virtualenv
-platformdirs==4.14.2
+platformdirs==4.14.5
     # via
     #   tox
     #   virtualenv
@@ -52,7 +52,7 @@ pygments==2.21.0
     # via pytest
 pymongo==4.19.0
     # via -r requirements/pkg.in
-pyproject-api==1.12.2
+pyproject-api==1.12.5
     # via tox
 pytest==9.2.0
     # via
@@ -62,11 +62,11 @@ pytest==9.2.0
     #   pytest-ordering
 pytest-cov==7.1.0
     # via -r requirements/tests.in
-pytest-env==1.8.4
+pytest-env==1.8.5
     # via -r requirements/tests.in
 pytest-ordering==0.6
     # via -r requirements/tests.in
-python-discovery==1.9.0
+python-discovery==1.9.5
     # via
     #   tox
     #   virtualenv
@@ -78,9 +78,9 @@ sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
 tomli-w==1.2.0
     # via tox
-tox==4.67.5
+tox==4.67.13
     # via -r requirements/tests.in
-virtualenv==21.15.2
+virtualenv==21.15.6
     # via tox
 
 # The following packages are considered to be unsafe in a requirements file:
