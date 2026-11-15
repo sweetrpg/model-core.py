@@ -12,7 +12,7 @@ cachetools==8.0.0
     # via tox
 colorama==0.4.6
     # via tox
-coverage[toml]==7.17.2
+coverage[toml]==7.17.3
     # via
     #   coverage-badge
     #   pytest-cov
@@ -24,7 +24,7 @@ dnspython==2.9.2
     # via
     #   -r requirements/tests.in
     #   pymongo
-filelock==4.2.9
+filelock==4.2.10
     # via
     #   python-discovery
     #   tox
@@ -50,7 +50,7 @@ pluggy==1.7.0
     #   tox
 pygments==2.21.0
     # via pytest
-pymongo==4.19.0
+pymongo==4.20.0
     # via -r requirements/pkg.in
 pyproject-api==1.12.5
     # via tox
