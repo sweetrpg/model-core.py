@@ -8,11 +8,11 @@ asgiref==3.13.0
     # via -r requirements/tests.in
 blinker==1.9.0
     # via -r requirements/tests.in
-cachetools==8.0.0
+cachetools==8.0.2
     # via tox
 colorama==0.4.6
     # via tox
-coverage[toml]==7.17.3
+coverage[toml]==7.17.4
     # via
     #   coverage-badge
     #   pytest-cov
@@ -24,7 +24,7 @@ dnspython==2.9.2
     # via
     #   -r requirements/tests.in
     #   pymongo
-filelock==4.2.10
+filelock==4.3.0
     # via
     #   python-discovery
     #   tox
@@ -39,7 +39,7 @@ packaging==26.3
     #   pytest
     #   tox
     #   virtualenv
-platformdirs==4.14.5
+platformdirs==4.14.8
     # via
     #   tox
     #   virtualenv
@@ -50,9 +50,9 @@ pluggy==1.7.0
     #   tox
 pygments==2.21.0
     # via pytest
-pymongo==4.20.0
+pymongo==4.20.1
     # via -r requirements/pkg.in
-pyproject-api==1.12.5
+pyproject-api==1.12.6
     # via tox
 pytest==9.2.0
     # via
@@ -62,11 +62,11 @@ pytest==9.2.0
     #   pytest-ordering
 pytest-cov==7.1.0
     # via -r requirements/tests.in
-pytest-env==1.8.5
+pytest-env==1.8.7
     # via -r requirements/tests.in
 pytest-ordering==0.6
     # via -r requirements/tests.in
-python-discovery==1.9.5
+python-discovery==1.9.6
     # via
     #   tox
     #   virtualenv
@@ -78,9 +78,9 @@ sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
 tomli-w==1.2.0
     # via tox
-tox==4.67.13
+tox==4.67.15
     # via -r requirements/tests.in
-virtualenv==21.15.6
+virtualenv==21.15.12
     # via tox
 
 # The following packages are considered to be unsafe in a requirements file:
